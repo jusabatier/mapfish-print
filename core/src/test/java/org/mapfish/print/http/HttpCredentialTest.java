@@ -11,8 +11,10 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import org.apache.http.auth.AuthScope;
-import org.apache.http.auth.Credentials;
+
+import org.apache.hc.client5.http.auth.AuthScope;
+import org.apache.hc.client5.http.auth.Credentials;
+
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
@@ -80,33 +82,27 @@ public class HttpCredentialTest {
     matcher.setHost(HttpProxyTest.LOCALHOST);
     credential.setMatchers(Collections.singletonList(matcher));
 
-    AuthScope authscope = AuthScope.ANY;
+    AuthScope authscope = null;
     final Credentials object = credential.toCredentials(authscope);
     assertNotNull(object);
     assertEquals(USERNAME, object.getUserPrincipal().getName());
     assertEquals(PASSWORD, object.getPassword());
 
-    authscope =
-        new AuthScope(
-            AuthScope.ANY_HOST, AuthScope.ANY_PORT, AuthScope.ANY_REALM, AuthScope.ANY_SCHEME);
+    authscope = new AuthScope(null, null, 0, null, null);
     assertNotNull(credential.toCredentials(authscope));
 
     authscope =
-        new AuthScope(
-            AuthScope.ANY_HOST,
-            HttpProxyTest.HTTPS_PROXY_PORT,
-            AuthScope.ANY_REALM,
-            AuthScope.ANY_SCHEME);
+        new AuthScope(null, null, HttpProxyTest.HTTPS_PROXY_PORT, null, null);
     assertNotNull(credential.toCredentials(authscope));
 
-    authscope = new AuthScope(AuthScope.ANY_HOST, 80, AuthScope.ANY_REALM, AuthScope.ANY_SCHEME);
+    authscope = new AuthScope(null, null, 80, null, null);
     assertNotNull(credential.toCredentials(authscope));
 
     authscope =
-        new AuthScope("google.com", AuthScope.ANY_PORT, AuthScope.ANY_REALM, AuthScope.ANY_SCHEME);
+        new AuthScope(null, "google.com", 0, null, null);
     assertNull(credential.toCredentials(authscope));
 
-    authscope = new AuthScope(AuthScope.ANY_HOST, AuthScope.ANY_PORT, AuthScope.ANY_REALM, "http");
+    authscope = new AuthScope(null, null, 0, null, "http");
     assertNotNull(credential.toCredentials(authscope));
   }
 

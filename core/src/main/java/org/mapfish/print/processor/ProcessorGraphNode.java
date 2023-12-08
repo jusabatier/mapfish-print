@@ -10,7 +10,7 @@ import java.util.Optional;
 import java.util.Set;
 import java.util.concurrent.RecursiveTask;
 import java.util.concurrent.TimeUnit;
-import javax.annotation.Nonnull;
+import jakarta.annotation.Nonnull;
 import org.locationtech.jts.util.Assert;
 import org.mapfish.print.ExceptionUtils;
 import org.mapfish.print.output.Values;

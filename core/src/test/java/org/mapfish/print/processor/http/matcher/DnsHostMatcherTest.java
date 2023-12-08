@@ -4,7 +4,7 @@ import static org.junit.Assert.assertTrue;
 import static org.mapfish.print.processor.http.matcher.MatcherTestUtils.assertMatch;
 
 import java.net.URI;
-import org.apache.http.auth.AuthScope;
+import org.apache.hc.client5.http.auth.AuthScope;
 import org.junit.Test;
 import org.springframework.http.HttpMethod;
 
@@ -30,15 +30,15 @@ public class DnsHostMatcherTest {
     assertTrue(
         dnsHostMatcher.matches(
             MatchInfo.fromAuthScope(
-                new AuthScope(AuthScope.ANY_HOST, 80, AuthScope.ANY_REALM, "http"))));
+                new AuthScope(null,null, 80, null, "http"))));
     assertTrue(
         dnsHostMatcher.matches(
             MatchInfo.fromAuthScope(
-                new AuthScope("localhost", AuthScope.ANY_PORT, AuthScope.ANY_REALM, "http"))));
+                new AuthScope(null, "localhost", 0, null, "http"))));
     assertTrue(
         dnsHostMatcher.matches(
             MatchInfo.fromAuthScope(
-                new AuthScope("127.0.0.1", 80, AuthScope.ANY_REALM, AuthScope.ANY_SCHEME))));
+                new AuthScope(null, "127.0.0.1", 80, null, null))));
 
     dnsHostMatcher.setPort(8080);
 

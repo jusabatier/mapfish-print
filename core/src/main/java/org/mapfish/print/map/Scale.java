@@ -2,7 +2,7 @@ package org.mapfish.print.map;
 
 import static org.mapfish.print.Constants.PDF_DPI;
 
-import javax.annotation.Nonnull;
+import jakarta.annotation.Nonnull;
 import org.geotools.geometry.jts.JTS;
 import org.geotools.referencing.CRS;
 import org.geotools.referencing.GeodeticCalculator;

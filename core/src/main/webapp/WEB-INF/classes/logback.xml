@@ -27,6 +27,7 @@
     <logger name="org.springframework" level="WARN" />
     <logger name="org.apache" level="WARN" />
     <logger name="com.codahale.metrics" level="INFO" />
+    <logger name="io.dropwizard.metrics" level="INFO" />
     <logger name="net.sf.jasperreports" level="INFO" />
 
 

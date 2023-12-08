@@ -9,7 +9,7 @@ import java.util.Set;
 import java.util.concurrent.Callable;
 import java.util.concurrent.CancellationException;
 import java.util.function.Supplier;
-import javax.annotation.Nonnull;
+import jakarta.annotation.Nonnull;
 import org.mapfish.print.config.Configuration;
 import org.mapfish.print.config.ConfigurationException;
 import org.mapfish.print.parser.ParserUtils;

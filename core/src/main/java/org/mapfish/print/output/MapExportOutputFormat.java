@@ -9,7 +9,7 @@ import java.util.Map;
 import java.util.concurrent.CancellationException;
 import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.ForkJoinTask;
-import javax.annotation.Nonnull;
+import jakarta.annotation.Nonnull;
 import org.apache.commons.io.IOUtils;
 import org.mapfish.print.Constants;
 import org.mapfish.print.config.Configuration;

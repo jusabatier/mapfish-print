@@ -12,9 +12,7 @@ import org.json.JSONObject;
 import org.mapfish.print.wrapper.json.PJsonObject;
 
 /** Hibernate User Type for PJson object. */
-public class PJsonObjectUserType implements UserType {
-
-  private static final int[] SQL_TYPES = {Types.LONGVARCHAR};
+public class PJsonObjectUserType implements UserType<Object> {
 
   private static final String CONTEXT_NAME = "spec";
 
@@ -62,13 +60,9 @@ public class PJsonObjectUserType implements UserType {
   }
 
   @Override
-  public final Object nullSafeGet(
-      final ResultSet rs,
-      final String[] names,
-      final SharedSessionContractImplementor session,
-      final Object owner)
-      throws SQLException {
-    String value = rs.getString(names[0]);
+  public Object nullSafeGet(ResultSet rs, int position, SharedSessionContractImplementor session, Object owner)
+          throws SQLException {
+    String value = rs.getString(position);
     if (value != null) {
       try {
         return new PJsonObject(new JSONObject(value), CONTEXT_NAME);
@@ -87,7 +81,7 @@ public class PJsonObjectUserType implements UserType {
       final SharedSessionContractImplementor session)
       throws SQLException {
     if (value == null) {
-      st.setNull(index, SQL_TYPES[0]);
+      st.setNull(index, Types.LONGVARCHAR);
     } else {
       st.setString(index, ((PJsonObject) value).getInternalObj().toString());
     }
@@ -99,12 +93,12 @@ public class PJsonObjectUserType implements UserType {
   }
 
   @Override
-  public final Class<PJsonObject> returnedClass() {
-    return PJsonObject.class;
+  public final Class<Object> returnedClass() {
+    return Object.class;
   }
 
   @Override
-  public final int[] sqlTypes() {
-    return SQL_TYPES;
+  public int getSqlType() {
+    return Types.LONGVARCHAR;
   }
 }

@@ -6,7 +6,7 @@ import static org.mapfish.print.map.geotools.grid.GridLabel.Side.RIGHT;
 import static org.mapfish.print.map.geotools.grid.GridLabel.Side.TOP;
 
 import java.awt.geom.AffineTransform;
-import javax.annotation.Nonnull;
+import jakarta.annotation.Nonnull;
 import org.geotools.feature.simple.SimpleFeatureTypeBuilder;
 import org.geotools.geometry.jts.ReferencedEnvelope;
 import org.geotools.renderer.lite.RendererUtilities;

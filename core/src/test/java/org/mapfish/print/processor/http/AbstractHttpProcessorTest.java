@@ -6,7 +6,7 @@ import java.net.URI;
 import java.util.List;
 import java.util.Set;
 import java.util.concurrent.ForkJoinPool;
-import javax.annotation.Nullable;
+import jakarta.annotation.Nullable;
 import org.json.JSONException;
 import org.junit.Test;
 import org.mapfish.print.AbstractMapfishSpringTest;

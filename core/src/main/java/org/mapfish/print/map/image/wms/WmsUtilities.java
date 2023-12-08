@@ -14,8 +14,10 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 import org.apache.commons.lang3.StringUtils;
-import org.apache.http.NameValuePair;
-import org.apache.http.client.utils.URLEncodedUtils;
+
+import org.apache.hc.core5.http.NameValuePair;
+//import org.apache.hc.core5.net.URLEncodedUtils;
+import org.apache.hc.core5.net.URIBuilder;
 import org.geotools.geometry.jts.ReferencedEnvelope;
 import org.geotools.ows.wms.request.GetMapRequest;
 import org.geotools.referencing.CRS;
@@ -86,7 +88,8 @@ public final class WmsUtilities {
 
     Multimap<String, String> extraParams = HashMultimap.create();
     if (commonURI.getQuery() != null) {
-      for (NameValuePair pair : URLEncodedUtils.parse(commonURI, Charset.forName("UTF-8"))) {
+        URIBuilder ub = new URIBuilder(commonURI.toString(), Charset.forName("UTF-8"));
+      for (NameValuePair pair : ub.getQueryParams()) {
         extraParams.put(pair.getName(), pair.getValue());
       }
     }
@@ -201,10 +204,10 @@ public final class WmsUtilities {
   public static ClientHttpRequest createWmsRequest(
       final MfClientHttpRequestFactory httpRequestFactory, final URI uri, final HttpMethod method)
       throws IOException {
-    switch (method) {
-      case GET:
+    switch (method.name()) {
+      case "GET":
         return httpRequestFactory.createRequest(uri, method);
-      case POST:
+      case "POST":
         final String params = uri.getQuery();
         final URI paramlessUri;
         try {

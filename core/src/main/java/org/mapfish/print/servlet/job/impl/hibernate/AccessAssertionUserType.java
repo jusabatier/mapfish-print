@@ -14,9 +14,7 @@ import org.mapfish.print.config.access.AccessAssertion;
 import org.mapfish.print.config.access.AccessAssertionPersister;
 
 /** Hibernate user type for access assertion. */
-public class AccessAssertionUserType implements UserType {
-
-  private static final int[] SQL_TYPES = {Types.LONGVARCHAR};
+public class AccessAssertionUserType implements UserType<Object> {
 
   @Override
   public final Object assemble(final Serializable cached, final Object owner) {
@@ -56,13 +54,9 @@ public class AccessAssertionUserType implements UserType {
   }
 
   @Override
-  public final Object nullSafeGet(
-      final ResultSet rs,
-      final String[] names,
-      final SharedSessionContractImplementor session,
-      final Object owner)
-      throws SQLException {
-    String value = rs.getString(names[0]);
+  public Object nullSafeGet(ResultSet rs, int position, SharedSessionContractImplementor session, Object owner)
+          throws SQLException {
+    String value = rs.getString(position);
     if (value != null) {
       try {
         AccessAssertionPersister persister =
@@ -85,7 +79,7 @@ public class AccessAssertionUserType implements UserType {
       final SharedSessionContractImplementor session)
       throws SQLException {
     if (value == null) {
-      st.setNull(index, SQL_TYPES[0]);
+      st.setNull(index, Types.LONGVARCHAR);
     } else {
       AccessAssertionPersister persister =
           ApplicationContextProvider.getApplicationContext()
@@ -100,12 +94,12 @@ public class AccessAssertionUserType implements UserType {
   }
 
   @Override
-  public final Class<AccessAssertion> returnedClass() {
-    return AccessAssertion.class;
+  public final Class<Object> returnedClass() {
+    return Object.class;
   }
 
   @Override
-  public final int[] sqlTypes() {
-    return SQL_TYPES;
+  public int getSqlType() {
+    return Types.LONGVARCHAR;
   }
 }

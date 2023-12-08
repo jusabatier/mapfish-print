@@ -5,7 +5,7 @@ import static org.mapfish.print.Constants.PDF_DPI;
 import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.ExecutorService;
-import javax.annotation.Nonnull;
+import jakarta.annotation.Nonnull;
 import org.geotools.data.DataUtilities;
 import org.geotools.data.FeatureSource;
 import org.geotools.data.collection.CollectionFeatureSource;

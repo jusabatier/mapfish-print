@@ -20,8 +20,8 @@ import java.util.concurrent.RunnableFuture;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
-import javax.annotation.PostConstruct;
-import javax.annotation.PreDestroy;
+import jakarta.annotation.PostConstruct;
+import jakarta.annotation.PreDestroy;
 import org.mapfish.print.ExceptionUtils;
 import org.mapfish.print.config.WorkingDirectories;
 import org.mapfish.print.servlet.job.JobManager;
@@ -607,7 +607,7 @@ public class ThreadPoolJobManager implements JobManager {
             }
           }
         }
-      } catch (javax.persistence.PessimisticLockException e) {
+      } catch (jakarta.persistence.PessimisticLockException e) {
         // Ignore error on pessimistic locking
       } catch (Throwable t) {
         LOGGER.error("Error while polling/updating registry", t);

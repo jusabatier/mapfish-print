@@ -9,7 +9,7 @@ import java.net.SocketException;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.net.UnknownHostException;
-import org.apache.http.auth.AuthScope;
+import org.apache.hc.client5.http.auth.AuthScope;
 import org.junit.Test;
 import org.springframework.http.HttpMethod;
 
@@ -47,15 +47,15 @@ public class LocalHostMatcherTest {
     assertTrue(
         localHostMatcher.matches(
             MatchInfo.fromAuthScope(
-                new AuthScope(AuthScope.ANY_HOST, 80, AuthScope.ANY_REALM, "http"))));
+                new AuthScope(null, null, 80, null, "http"))));
     assertTrue(
         localHostMatcher.matches(
             MatchInfo.fromAuthScope(
-                new AuthScope("127.0.0.1", AuthScope.ANY_PORT, AuthScope.ANY_REALM, "http"))));
+                new AuthScope(null, "127.0.0.1", 0, null, "http"))));
     assertTrue(
         localHostMatcher.matches(
             MatchInfo.fromAuthScope(
-                new AuthScope("127.0.0.1", 80, AuthScope.ANY_REALM, AuthScope.ANY_SCHEME))));
+                new AuthScope(null, "127.0.0.1", 80, null, null))));
 
     assertMatch(localHostMatcher, false, new URI("http://www.camptocamp.com/"), HttpMethod.GET);
 

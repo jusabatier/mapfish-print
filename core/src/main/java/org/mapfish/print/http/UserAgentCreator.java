@@ -1,6 +1,6 @@
 package org.mapfish.print.http;
 
-import org.apache.http.util.VersionInfo;
+import org.apache.hc.core5.util.VersionInfo;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -25,8 +25,8 @@ public final class UserAgentCreator {
   public static String getUserAgent() {
 
     final String httpClientUserAgent =
-        VersionInfo.getUserAgent(
-            "Apache-HttpClient", "org.apache.http.client", UserAgentCreator.class);
+        VersionInfo.getSoftwareInfo(
+            "Apache-HttpClient", "org.apache.hc.client5", UserAgentCreator.class);
 
     // This is based on the code from HttpClient:
     final VersionInfo mapFishPrintVersionInfo =

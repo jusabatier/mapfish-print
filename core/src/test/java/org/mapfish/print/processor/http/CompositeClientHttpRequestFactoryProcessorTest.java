@@ -4,7 +4,7 @@ import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;
 
 import java.net.URI;
-import javax.annotation.Nullable;
+import jakarta.annotation.Nullable;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.mapfish.print.attribute.HttpRequestHeadersAttribute;

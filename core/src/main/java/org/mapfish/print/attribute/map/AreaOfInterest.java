@@ -3,7 +3,7 @@ package org.mapfish.print.attribute.map;
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import javax.annotation.Nonnull;
+import jakarta.annotation.Nonnull;
 import org.geotools.data.simple.SimpleFeatureCollection;
 import org.geotools.feature.DefaultFeatureCollection;
 import org.geotools.feature.simple.SimpleFeatureBuilder;

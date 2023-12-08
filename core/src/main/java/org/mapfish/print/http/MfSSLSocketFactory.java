@@ -4,10 +4,12 @@ import java.io.IOException;
 import java.net.InetSocketAddress;
 import java.net.Socket;
 import javax.net.ssl.SSLContext;
-import org.apache.http.HttpHost;
-import org.apache.http.conn.socket.LayeredConnectionSocketFactory;
-import org.apache.http.conn.ssl.SSLConnectionSocketFactory;
-import org.apache.http.protocol.HttpContext;
+
+import org.apache.hc.core5.http.HttpHost;
+import org.apache.hc.client5.http.socket.LayeredConnectionSocketFactory;
+import org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory;
+import org.apache.hc.core5.http.protocol.HttpContext;
+import org.apache.hc.core5.util.TimeValue;
 import org.mapfish.print.config.Configuration;
 
 /** A ssl socket factory that obtains the keystore from the current configuration. */
@@ -31,7 +33,7 @@ public final class MfSSLSocketFactory implements LayeredConnectionSocketFactory 
 
   @Override
   public Socket connectSocket(
-      final int connectTimeout,
+      final TimeValue connectTimeout,
       final Socket sock,
       final HttpHost host,
       final InetSocketAddress remoteAddress,

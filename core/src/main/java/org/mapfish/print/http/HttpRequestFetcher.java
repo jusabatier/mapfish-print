@@ -14,8 +14,8 @@ import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.ForkJoinTask;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
+import jakarta.annotation.Nonnull;
+import jakarta.annotation.Nullable;
 import org.apache.commons.io.IOUtils;
 import org.mapfish.print.StatsUtils;
 import org.mapfish.print.processor.Processor;
@@ -158,7 +158,6 @@ public final class HttpRequestFetcher {
       return this.originalRequest.getMethod();
     }
 
-    @Override
     @Nonnull
     public String getMethodValue() {
       final HttpMethod method = this.originalRequest.getMethod();

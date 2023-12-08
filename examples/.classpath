@@ -1,0 +1,1729 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="output" path="bin/default"/>
+	<classpathentry output="bin/test" kind="src" path="src/test/java">
+		<attributes>
+			<attribute name="gradle_scope" value="test"/>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry output="bin/test" kind="src" path="src/test/resources">
+		<attributes>
+			<attribute name="gradle_scope" value="test"/>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17/"/>
+	<classpathentry kind="src" path="/core">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="without_test_code" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/junit/junit/4.13.2/33987872a811fe4d4001ed494b07854822257f42/junit-4.13.2-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/junit/junit/4.13.2/8ac9e16d933b6fb43bc7f576336b8f4d7eb5ba12/junit-4.13.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/5.5.0/cb2be37ccc1ab1f86d31ed7003b5a1179dade74e/mockito-core-5.5.0-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/5.5.0/1660ec3ce0af7f713af923817b225a37cc5cf965/mockito-core-5.5.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.11.0/2ef0187124bbfc7aed3038d4ffdd2241e8992937/commons-io-2.11.0-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.11.0/a2503f302b11ebde7ebc3df41daebe0e4eea3689/commons-io-2.11.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/5.3.27/c0ebcedcdf71237631dfdcef45666c2e6272b790/spring-web-5.3.27-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/5.3.27/a51c45a8602052a2a90f7e645a47ba8df1547795/spring-web-5.3.27.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.json/json/20230227/7d46b396d84114423568a35e57f022d9a7c537e0/json-20230227-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.json/json/20230227/7a0d4aca76513d8ce81f9b044ce8126b84809ad8/json-20230227.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.5/f7d878153e86a1cdddf6b37850e00a9f8bff726f/commons-lang3-3.5-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.5/6c6c702c89bfff3cd9e80b04d668c5e190d588c6/commons-lang3-3.5.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.locationtech.jts/jts-core/1.18.2/50e198513fd8bcc3cda8dea066c151183bf0dfd1/jts-core-1.18.2-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.locationtech.jts/jts-core/1.18.2/cf69824dabd57099eff3bceb1a93a2061cc9a0ff/jts-core-1.18.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.4.7/f04b2c50eee3f328f2b457f7005ebc1727e501f4/logback-classic-1.4.7-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.4.7/307944865579a6d490e6a4cbb5082dc8f36536ca/logback-classic-1.4.7.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/2.0.7/f887f95694cd20d51a062446b6e3d09dd02d98ff/slf4j-api-2.0.7-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/2.0.7/41eb7184ea9d556f23e18b5cb99cad1f8581fc00/slf4j-api-2.0.7.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/5.3.27/658a5998b3e0e292eafd474f27dfb3b6b5681974/spring-test-5.3.27-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/5.3.27/84e2e80189abd5b74f2b07abde8d179a404a5b71/spring-test-5.3.27.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/1dc37250fbc78e23a65a67fbbaf71d2e9cbc3c0b/hamcrest-core-1.3-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.14.6/92b88314adffa5e3d006edfc146882eff07aea56/byte-buddy-1.14.6-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.14.6/316c1b1f3208a9d716c4419ed2080443235f7d1/byte-buddy-1.14.6.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.14.6/8ea208082ca89d61dd6819e84f4a43473fde10de/byte-buddy-agent-1.14.6-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.14.6/46e2545d7a97b6ccb195621650c5957279eb4812/byte-buddy-agent-1.14.6.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/5.3.27/965a960ec8927d964985f756506993e5725d15ab/spring-beans-5.3.27-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/5.3.27/46e7d917551ffcc0a104fd971d1fa207b30d7761/spring-beans-5.3.27.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.3.27/c77d107bd00038a250135ac9d966a7915a611bdb/spring-core-5.3.27-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.3.27/ff5e35f2d4f72d22c476ff9b7bce1de25c980ebd/spring-core-5.3.27.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.4.7/f3486d702b79a0249e8f26adfb44866e3741cc3a/logback-core-1.4.7-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.4.7/a2948dae4013d0e9486141b4d638d8951becb767/logback-core-1.4.7.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jcl/5.3.27/1e9c572fe67e7a8e8831cd3843a28f5840c1eb93/spring-jcl-5.3.27-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jcl/5.3.27/9698ea7d5361b5e3a27ed08beb7770279bd2397/spring-jcl-5.3.27.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-test/3.0.19/f32914d09e281bca727af27a51aea7026d87f9a6/groovy-test-3.0.19-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-test/3.0.19/7cdda7e8a6a97332d7069327cd339fd0da34510c/groovy-test-3.0.19.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.geotools/gt-wms/29.3/66def6a06d46d14142aa00fe287efd90d2fadbfb/gt-wms-29.3-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.geotools/gt-wms/29.3/a54b3d5296ad34e7d11b79124b3d421abfebcd88/gt-wms-29.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.geotools/gt-svg/29.3/68b33db62441ac5295d181e3181c95a36ef29254/gt-svg-29.3-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.geotools/gt-svg/29.3/17fda3d24dc40c5b7b9b6d2258b376c90bc9812e/gt-svg-29.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-codec/1.17/2e3a226cb1d29f9efcf7619ce6ea126d0fba0feb/batik-codec-1.17-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-codec/1.17/7cceac705d050a9730e7032da43a42c66cfadc41/batik-codec-1.17.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-transcoder/1.17/34d11c4b5e45c7cd988b0ee5539081347f09cd77/batik-transcoder-1.17-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-transcoder/1.17/59714b2b8848f0ade8de47ca555f9a75d5191834/batik-transcoder-1.17.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-bridge/1.17/84416149cf4c9fa2a08fa30f763c4778712c3120/batik-bridge-1.17-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-bridge/1.17/d8246a26d8e0503fc30822fed2a8595b3659af90/batik-bridge-1.17.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/ar.com.fdvs/DynamicJasper/5.3.9/fac54a9a005f1a7bf187d0df58537107baef206/DynamicJasper-5.3.9-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/ar.com.fdvs/DynamicJasper/5.3.9/8d8afbf649902473b82bd23e9c3a1f050c25d3da/DynamicJasper-5.3.9.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-script/1.17/a85a4c847578d15c273a83fffe0990db5495e32b/batik-script-1.17-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-script/1.17/958bad8baa3a77a73152281418256b608801232d/batik-script-1.17.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-anim/1.17/4cce73228cd9cde4b132e571f9de3176f8f27c94/batik-anim-1.17-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-anim/1.17/89e5d61a4328d6755dd7903fb5e7f0b265ff8fbe/batik-anim-1.17.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-svg-dom/1.17/231e7007327be2093b28ed033968ef50e08329f2/batik-svg-dom-1.17-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-svg-dom/1.17/54a25b9b691bcc302c0dd36d80f56e81a9ebed91/batik-svg-dom-1.17.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-gvt/1.17/bf772d95f22a62445f82e02baef380e3096f51a9/batik-gvt-1.17-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-gvt/1.17/33f70788de9f7d31d69db22c0afaf304424ff799/batik-gvt-1.17.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-svggen/1.17/78ca63016661c8d9d276ac8b51018390e123f70/batik-svggen-1.17-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-svggen/1.17/2ecd4a5ab064e89172fbdd025c422e04a57a1024/batik-svggen-1.17.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-parser/1.17/b4e96d6114d887c2adb8768f330c85c29b4eac5b/batik-parser-1.17-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-parser/1.17/da9d3057be108e6ac8799cc8efed1e2b490ba37c/batik-parser-1.17.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-awt-util/1.17/138285f638e9b91b6f8fd4e3576021d010afd402/batik-awt-util-1.17-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-awt-util/1.17/e3f71c6f07da863228b64a59bf059c4611c3952/batik-awt-util-1.17.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-dom/1.17/79dbc58333544c4f93ca23c247596f167a4b337a/batik-dom-1.17-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-dom/1.17/efcb39f1007187565c264a5f1d12ebcf67efb761/batik-dom-1.17.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-css/1.17/965b2f20fd7600337897c7a41f8b0ff23e76bd95/batik-css-1.17-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-css/1.17/d5ff4e0463af8a0ea5ab8d782c5418bab2f45c4d/batik-css-1.17.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/xmlgraphics-commons/2.9/137a8c8848dad01382e36387042523713b381a2/xmlgraphics-commons-2.9-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/xmlgraphics-commons/2.9/de2d1bd8d40474bbe876bb269410c750489f08e5/xmlgraphics-commons-2.9.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.geotools/gt-render/29.3/e99a513f98c936767299dd903f54b72e411e72ef/gt-render-29.3-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.geotools/gt-render/29.3/f7eb36b26c45d05b86cd5caed56f4470cb237b41/gt-render-29.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.geotools/gt-geotiff/29.3/d4f3115d1245278b62ada7914c0b11800a27ff3b/gt-geotiff-29.3-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.geotools/gt-geotiff/29.3/e078b60ce8f5ab691c7b7c04532bd07400c53332/gt-geotiff-29.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.geotools/gt-coverage/29.3/e152c69c8f0aba55a5d77717811880f7136399c3/gt-coverage-29.3-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.geotools/gt-coverage/29.3/d8e92387f9839de36f5c1e02047ab5fec5097a48/gt-coverage-29.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.geotools.xsd/gt-xsd-gml3/29.3/d420ef58b85d6a7ca486f0adaabf967defa8b3d1/gt-xsd-gml3-29.3-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.geotools.xsd/gt-xsd-gml3/29.3/32b7bfd081cd741fc9e9f76f26faed16afad0014/gt-xsd-gml3-29.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.geotools.xsd/gt-xsd-gml2/29.3/ec86ee04b7fc0d8f06a32bd6eae17592f4fcea95/gt-xsd-gml2-29.3-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.geotools.xsd/gt-xsd-gml2/29.3/9b9963448a8311736ced561571768484bdd38a2/gt-xsd-gml2-29.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.geotools.xsd/gt-xsd-core/29.3/a4e9df03ebcffdcf1517504c1c6f9b0da9fadd80/gt-xsd-core-29.3-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.geotools.xsd/gt-xsd-core/29.3/6fdd987b9ef9a09b9ca767bda09d20c7399afa2e/gt-xsd-core-29.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/6.1.1/4996999900ea98fbd26b589221d03d396167ed08/spring-webmvc-6.1.1-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/6.1.1/76c4408b67828aa9656f5955dc2c1c4c0e1b6da3/spring-webmvc-6.1.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-web/6.2.0/9a8dc7c9ffc1391a5d2f1f3c15cc58fe8a34b41b/spring-security-web-6.2.0-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-web/6.2.0/279f836f90d0b7d394abe115e5504b2ff4b66643/spring-security-web-6.2.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/6.1.1/9ca23e110965b376c724ab6f49b7aa0a24c6bfc6/spring-web-6.1.1-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/6.1.1/4eeb5f2edb9f04d00357edcc56b59d3874b3b453/spring-web-6.1.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.json/json/20230618/93e2d3dd9a0fc9e015237a716aadf96f6f46618/json-20230618-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.json/json/20230618/1ae16df7d556d02713e241086f878399e99260d6/json-20230618.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.geotools/gt-geojson/29.3/413096fdd5dff6352d1d267e645c1ca7def4a0e4/gt-geojson-29.3-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.geotools/gt-geojson/29.3/14411303ba884da6c97d2930a3a7764374cdba46/gt-geojson-29.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.geotools/gt-epsg-hsql/29.3/5c920ef3355e0212dfbf2300769b6eb663cb289f/gt-epsg-hsql-29.3-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.geotools/gt-epsg-hsql/29.3/968eee198435277dfce87294343547ef95bf53b3/gt-epsg-hsql-29.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.geotools/gt-cql/29.3/36b096fbd3064b5e09b7d954ae94ac68a17c05f6/gt-cql-29.3-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.geotools/gt-cql/29.3/f84a486bafbf0d765107b5e920c2ddef9edee52c/gt-cql-29.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.geotools/gt-xml/29.3/6f7ed15b13f0713d560b687a9192ff5741b0a620/gt-xml-29.3-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.geotools/gt-xml/29.3/23df3bda4c53a9c8adfc89c7641a142181c89ab4/gt-xml-29.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.geotools/gt-main/29.3/40417da1d0de4a660a26e8a953723d29c76b8d96/gt-main-29.3-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.geotools/gt-main/29.3/cf2e47da9748b20bfecc55e8402d023f16a41235/gt-main-29.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.geotools/gt-referencing/29.3/f2bdc65035ab35b29bef16939754d0d28dcf2f8a/gt-referencing-29.3-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.geotools/gt-referencing/29.3/995ac5ff86ceb0c9fcb487761f20fd2dd9057080/gt-referencing-29.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.geotools/gt-http/29.3/efd9e21c29e8645597642af0bfc1b9f0fa796988/gt-http-29.3-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.geotools/gt-http/29.3/d3b4281473e3245cdbc12e5b08ebe7901c80e5a7/gt-http-29.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.geotools/gt-metadata/29.3/764d8d0d3ff25bd5df63af4a4991ed54babbf6d2/gt-metadata-29.3-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.geotools/gt-metadata/29.3/a26a8f1e816050c9418972613a8b68d5c990e272/gt-metadata-29.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-text/1.10.0/99ad76c831fcf0edead47f3aa9c0731653a0845d/commons-text-1.10.0-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-text/1.10.0/3363381aef8cef2dbc1023b3e3a9433b08b64e01/commons-text-1.10.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.12.0/198b882fdc2c72c89c63401d946f6ba46c3acea3/commons-lang3-3.12.0-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.12.0/c6842c86792ff03b9f1d1fe2aab8dc23aa6c6f0e/commons-lang3-3.12.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.jaitools/jt-zonalstats/1.6.0/bb342b896cccac58916983e057dc96b65fec3572/jt-zonalstats-1.6.0-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.jaitools/jt-zonalstats/1.6.0/68bf96642dc310a9793ed98384da6843b8241c08/jt-zonalstats-1.6.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.jaitools/jt-utils/1.6.0/89de345c9fbda20810e4847af75f5c26923f088a/jt-utils-1.6.0-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.jaitools/jt-utils/1.6.0/8ce5a9a0840a1b17f1f39d44fe931b8197906b45/jt-utils-1.6.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.affine/jt-affine/1.1.24/c39fc9dfe26c396eac01f9655fe01afa4403f5df/jt-affine-1.1.24-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.affine/jt-affine/1.1.24/53ffb79962595ef5a24c17c6dae076b834d28b08/jt-affine-1.1.24.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.algebra/jt-algebra/1.1.24/db081513ef2b8ffd66de372d6b9af23a2e2300ec/jt-algebra-1.1.24-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.algebra/jt-algebra/1.1.24/d115a8a7df8cf8feba37125c300cbe8236da8984/jt-algebra-1.1.24.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.bandmerge/jt-bandmerge/1.1.24/64c1b2dfd1eef92ea4e1f6d24c434560f4671df9/jt-bandmerge-1.1.24-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.bandmerge/jt-bandmerge/1.1.24/37f5bcd637bf8693311f3a3b7d88b84e0d400245/jt-bandmerge-1.1.24.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.bandselect/jt-bandselect/1.1.24/60e2c66b2b08bdb2ed3e8a2cdc8636578eadfb0d/jt-bandselect-1.1.24-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.bandselect/jt-bandselect/1.1.24/66cfda013c10ca65e9957aa1f819fc5e7694ab75/jt-bandselect-1.1.24.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.bandcombine/jt-bandcombine/1.1.24/b6da0f3152f605aaaca25632fe8bf611d62f2afe/jt-bandcombine-1.1.24-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.bandcombine/jt-bandcombine/1.1.24/2d122de0c9c5a350ae82c1277f0bc83df5152fce/jt-bandcombine-1.1.24.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.warp/jt-warp/1.1.24/d776a704370c3ec109706c4b791bbd387c3a31a8/jt-warp-1.1.24-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.warp/jt-warp/1.1.24/25ed17ce488c7d91ce4b36818e10f956134d9a40/jt-warp-1.1.24.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.format/jt-format/1.1.24/67c1fb443eb5ff6a2bbe2351d3377cf2ef276b88/jt-format-1.1.24-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.format/jt-format/1.1.24/4999fec92b4b72b8ac12ee300a6f4e2f5f8fc0e8/jt-format-1.1.24.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.border/jt-border/1.1.24/bf1568d68d70fcd848777b56b015843447f6721e/jt-border-1.1.24-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.border/jt-border/1.1.24/ccc7b5d38f7d67bcbdc0f3cc143e378096668aea/jt-border-1.1.24.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.buffer/jt-buffer/1.1.24/48a36da5a194973e09d80b3e1429e456be9005ee/jt-buffer-1.1.24-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.buffer/jt-buffer/1.1.24/f3c898c521aa73b008ed89152b95d0791140ff42/jt-buffer-1.1.24.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.crop/jt-crop/1.1.24/86706d79ebe9f7895ac2d3ffa1276eb9e2c08d38/jt-crop-1.1.24-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.crop/jt-crop/1.1.24/d252f4d981890ac104cb4543473c6caad1e7fd41/jt-crop-1.1.24.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.mosaic/jt-mosaic/1.1.24/f074cc14dbca34ce7e50a86fad72455815234789/jt-mosaic-1.1.24-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.mosaic/jt-mosaic/1.1.24/2d13c936c3880e118fee4f74b16d6503f19278c/jt-mosaic-1.1.24.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.lookup/jt-lookup/1.1.24/76a977ba0d4a9d11ea3f66b796080abddf7a4562/jt-lookup-1.1.24-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.lookup/jt-lookup/1.1.24/f10acb569265ebbd255bcb97edd7abd37da589ea/jt-lookup-1.1.24.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.rescale/jt-rescale/1.1.24/7bbbb03106f0658ce7892087a541c41dd139df21/jt-rescale-1.1.24-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.rescale/jt-rescale/1.1.24/29d3622e03ea208a993188a6c24f5236aa9e179c/jt-rescale-1.1.24.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.scale/jt-scale/1.1.24/54bbc86f6f4b9d070e71ece96ab0ddba59f90052/jt-scale-1.1.24-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.scale/jt-scale/1.1.24/ddf3629465686ce8e65a1aa99e0a17e542b3425c/jt-scale-1.1.24.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.scale2/jt-scale2/1.1.24/f76e7c48681e4f3a909664f7473ecdeeef6d1787/jt-scale2-1.1.24-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.scale2/jt-scale2/1.1.24/5892b9b60673edc9926e6a0e5f68e2d5f2e12a13/jt-scale2-1.1.24.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.zonal/jt-zonal/1.1.24/858e9dad58ff9b99fdad4e56a2a0b9c57958c203/jt-zonal-1.1.24-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.zonal/jt-zonal/1.1.24/dfc1853e0d433bf629d8b809558ab3fe69f883f9/jt-zonal-1.1.24.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.stats/jt-stats/1.1.24/8f4ab7607c027bec9a6fe8585b23fb90cf50d9fe/jt-stats-1.1.24-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.stats/jt-stats/1.1.24/ec820619f07eb2abc5aa14a4a8b42e51b109d8be/jt-stats-1.1.24.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.nullop/jt-nullop/1.1.24/f810c07a5278b95ddb3f458de0c98fc647186ead/jt-nullop-1.1.24-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.nullop/jt-nullop/1.1.24/2af2be848f8ca7e220f7682e523da7bd0fcd68b3/jt-nullop-1.1.24.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.translate/jt-translate/1.1.24/c488d27a74d3091bfc633d3066ca6a089ae409/jt-translate-1.1.24-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.translate/jt-translate/1.1.24/1d94be1060dba73d97328168bd7bcf077bb2d254/jt-translate-1.1.24.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.binarize/jt-binarize/1.1.24/99f17e821f02918cc6623114055c8c12ec71c7b4/jt-binarize-1.1.24-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.binarize/jt-binarize/1.1.24/c88532901f112a41b9dfb7336a9776e37652d00b/jt-binarize-1.1.24.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.colorconvert/jt-colorconvert/1.1.24/92b94c4847699b3550554d25731cbe54647e18fa/jt-colorconvert-1.1.24-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.colorconvert/jt-colorconvert/1.1.24/6007e7e0f4b34b7aaa283ab2152d678642ed9d6b/jt-colorconvert-1.1.24.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.errordiffusion/jt-errordiffusion/1.1.24/f33be6873edfe3dc416e18ac3f41ea78f3291163/jt-errordiffusion-1.1.24-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.errordiffusion/jt-errordiffusion/1.1.24/2cc6df3c2831d2e68e56054a1a4ea615741649f2/jt-errordiffusion-1.1.24.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.orderdither/jt-orderdither/1.1.24/411967eb8c7e4b0093cf2c991db87e6ce89068cf/jt-orderdither-1.1.24-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.orderdither/jt-orderdither/1.1.24/a32c27be73c630f67afedf70f4deb5cbf6704a5b/jt-orderdither-1.1.24.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.colorindexer/jt-colorindexer/1.1.24/d217c666283dd99d32850d19feeeabe23d778aa3/jt-colorindexer-1.1.24-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.colorindexer/jt-colorindexer/1.1.24/9a189c8992b7d510c0af86d8ce23e43b9de3ea62/jt-colorindexer-1.1.24.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.imagefunction/jt-imagefunction/1.1.24/3462d8628015f11cb3e44e51332e80ef4b0a99b3/jt-imagefunction-1.1.24-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.imagefunction/jt-imagefunction/1.1.24/76b818a06a2ee78cc7cf36ec097e4119eb66547d/jt-imagefunction-1.1.24.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.classifier/jt-classifier/1.1.24/8305a574e4a197326535a47841577c1e38516566/jt-classifier-1.1.24-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.classifier/jt-classifier/1.1.24/4b46f069abd0ba2d723e68cb7e7a1a0d17a32c6/jt-classifier-1.1.24.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.piecewise/jt-piecewise/1.1.24/4be496a681cad53f169a2147c1b1d7b2987ff418/jt-piecewise-1.1.24-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.piecewise/jt-piecewise/1.1.24/f9726487a1551eadefac2afc426b707aafd043a6/jt-piecewise-1.1.24.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.rlookup/jt-rlookup/1.1.24/76f0ffda092622dcdaa6cdfecde689295126deb7/jt-rlookup-1.1.24-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.rlookup/jt-rlookup/1.1.24/313b432afafe8b5203c938ff6214979ca40b0435/jt-rlookup-1.1.24.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.vectorbin/jt-vectorbin/1.1.24/b4b02181f8762e414ea3ba79ec595869106dc59f/jt-vectorbin-1.1.24-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.vectorbin/jt-vectorbin/1.1.24/fb5e6e2acae70a82a6ec55c746e87c3d89d546cb/jt-vectorbin-1.1.24.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.shadedrelief/jt-shadedrelief/1.1.24/a0606f9adb6e61fab597bf490372e585a06c72b6/jt-shadedrelief-1.1.24-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.shadedrelief/jt-shadedrelief/1.1.24/af4df4195c42a6f2c1c4d960e63662cb66fce95b/jt-shadedrelief-1.1.24.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.utilities/jt-utilities/1.1.24/c87352996b14c99ebddef6c424428d482e65c9d7/jt-utilities-1.1.24-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.utilities/jt-utilities/1.1.24/b7c0bce239b67767abc6afe1fb7054b7616468d0/jt-utilities-1.1.24.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.iterators/jt-iterators/1.1.24/d0cf4c512731254171d4936039955d846b237e2a/jt-iterators-1.1.24-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.iterators/jt-iterators/1.1.24/ab2058bc14db64cae5c20eae138461d18bb76277/jt-iterators-1.1.24.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.locationtech.jts/jts-core/1.19.0/3364ec0a56a7088289eaa2771cf2d7529c0b8cd2/jts-core-1.19.0-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.locationtech.jts/jts-core/1.19.0/3ff3baa0074445384f9e0068df81fbd0a168395a/jts-core-1.19.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/io.dropwizard.metrics/metrics-logback/4.2.22/e912e9f6651f19b38e5838f726a966e170fee0cb/metrics-logback-4.2.22-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/io.dropwizard.metrics/metrics-logback/4.2.22/cb479bf771780aa3f0e6590d638cdc13078b5ece/metrics-logback-4.2.22.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.4.11/633da78998a88874bb7d697f055e5f28b40b5d5c/logback-classic-1.4.11-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.4.11/54450c0c783e896a1a6d88c043bd2f1daba1c382/logback-classic-1.4.11.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.slf4j/jcl-over-slf4j/2.0.9/ea4c932dbb30801b22290f10d30a63c966af18ec/jcl-over-slf4j-2.0.9-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.slf4j/jcl-over-slf4j/2.0.9/89eb336cf1183ce075253c7c3788aa196d56f71a/jcl-over-slf4j-2.0.9.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.slf4j/jul-to-slf4j/2.0.9/2150c4d3cad9f73e902f7679ece60cad80dfb61/jul-to-slf4j-2.0.9-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.slf4j/jul-to-slf4j/2.0.9/9ef7c70b248185845f013f49a33ff9ca65b7975/jul-to-slf4j-2.0.9.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents.client5/httpclient5/5.2.3/bdd706e88c47379b74952c8d38dd66a78aefb653/httpclient5-5.2.3-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents.client5/httpclient5/5.2.3/5d753a99d299756998a08c488f2efdf9cf26198e/httpclient5-5.2.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/io.dropwizard.metrics/metrics-jakarta-servlet/4.2.22/5c270886c10af917be180907e692d7c1bafd8de1/metrics-jakarta-servlet-4.2.22-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/io.dropwizard.metrics/metrics-jakarta-servlet/4.2.22/d75dff977b7b294962630f936fa6a2d6a5a871e2/metrics-jakarta-servlet-4.2.22.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/io.dropwizard.metrics/metrics-httpclient/4.2.22/2127098ee239914033f577539efe481179129ca2/metrics-httpclient-4.2.22-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/io.dropwizard.metrics/metrics-httpclient/4.2.22/449c65fe03b614d324b3500f1f5deac14e57e591/metrics-httpclient-4.2.22.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/io.dropwizard.metrics/metrics-jakarta-servlets/4.2.22/f2bddeeb368d7b7e8ab0af4e5bf3931c96d52f7/metrics-jakarta-servlets-4.2.22-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/io.dropwizard.metrics/metrics-jakarta-servlets/4.2.22/58c6f6e55c5a5251b3605540ff68bf2fa54cfc3/metrics-jakarta-servlets-4.2.22.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/io.dropwizard.metrics/metrics-jvm/4.2.22/efc976eb24214f70001fd6341acdb2ceaa1ca8cc/metrics-jvm-4.2.22-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/io.dropwizard.metrics/metrics-jvm/4.2.22/16fa083a95eb77e04eec4e1558e2feb50cf317e/metrics-jvm-4.2.22.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/io.dropwizard.metrics/metrics-jmx/4.2.22/37f84ee55acbd057ec51744973734a8c97e54b18/metrics-jmx-4.2.22-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/io.dropwizard.metrics/metrics-jmx/4.2.22/2f23beded3e46a3552fc3c1a0fdfb810c24d8f97/metrics-jmx-4.2.22.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/io.dropwizard.metrics/metrics-healthchecks/4.2.22/e4f872c3f87d3e0d437a31d344dff3652ea64750/metrics-healthchecks-4.2.22-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/io.dropwizard.metrics/metrics-healthchecks/4.2.22/9ac7791d7ed9d00efe4dddaac760785d0a6030c2/metrics-healthchecks-4.2.22.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/io.dropwizard.metrics/metrics-json/4.2.22/20e38c7f853379f69c5301a7b37609a0752d6e88/metrics-json-4.2.22-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/io.dropwizard.metrics/metrics-json/4.2.22/73614414a4a981c0cd88388bc3b1d52dfddd5415/metrics-json-4.2.22.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/io.dropwizard.metrics/metrics-core/4.2.22/8a0f8dc5bc67b1e03faab90fcbc79221316bf3b/metrics-core-4.2.22-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/io.dropwizard.metrics/metrics-core/4.2.22/61625cf2338fe84464c5d586dbba51d4ff36a2b8/metrics-core-4.2.22.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/com.conversantmedia/disruptor/1.2.15/228e5035276ad9328c5d81d1ff9664222819dcad/disruptor-1.2.15-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/com.conversantmedia/disruptor/1.2.15/21924297eb54dfd8a390c3e08cc9e7a457dff358/disruptor-1.2.15.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-testng/3.0.19/ad5878c60cdcaebb6c5710152cc41a43e438bffe/groovy-testng-3.0.19-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-testng/3.0.19/71d00776b167153cca5eae2ae60b8a9ea3847fa3/groovy-testng-3.0.19.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.testng/testng/7.5/1884aca4c105c5fa982f8512c2c22a873246a8de/testng-7.5-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.testng/testng/7.5/1416a607fae667c14e390b484e8d02b5824c0674/testng-7.5.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.imageio-ext/imageio-ext-cog-reader/1.4.7/1d1b1bbcd8094b1ad5de6c8554e168d8e011972d/imageio-ext-cog-reader-1.4.7-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.imageio-ext/imageio-ext-cog-reader/1.4.7/dc94c9f1bf71345cd0d4f406eed3e91fd45b6/imageio-ext-cog-reader-1.4.7.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.imageio-ext/imageio-ext-cog-streams/1.4.7/dc05327d31b4135e3fcf7d9f214e7d4127d00378/imageio-ext-cog-streams-1.4.7-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.imageio-ext/imageio-ext-cog-streams/1.4.7/f1e7b3e44917f3ce15244b5895ff19ce790c31c8/imageio-ext-cog-streams-1.4.7.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.ehcache/ehcache/3.4.0/45f83bcf2e286a312f13491b03c2b409d0a02984/ehcache-3.4.0-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.ehcache/ehcache/3.4.0/cac1f0840af0040a81401dfa55fa31a4ccc17932/ehcache-3.4.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/2.0.9/97e46b94d70f47892145e09d685461245584d596/slf4j-api-2.0.9-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/2.0.9/7cf2726fdcfbc8610f9a71fb3ed639871f315340/slf4j-api-2.0.9.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/6.1.1/46b881a4c3521c93f0eb0da455e959ad418b8f97/spring-test-6.1.1-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/6.1.1/e86044a9b56e7c6860d643dd11b7b44624cce4a/spring-test-6.1.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.hibernate.orm/hibernate-core/6.3.1.Final/7f46ccb21d7deab8e85fbc627c2a2c88be6e22f3/hibernate-core-6.3.1.Final-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.hibernate.orm/hibernate-core/6.3.1.Final/1101d7e09e4853a110fd27a6f35c906f5709ac4f/hibernate-core-6.3.1.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.14.7/8c13f18c950acdd703deae7249f1392f66b6c334/byte-buddy-1.14.7-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.14.7/34efde5f0bb93afc94aaf9d400521899c4806873/byte-buddy-1.14.7.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/3.3/5fef34eeee6816b0ba2170755a8a9db7744990c3/objenesis-3.3-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/3.3/1049c09f1de4331e8193e579448d0916d75b7631/objenesis-3.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-config/6.2.0/e7dcec31251eadba31486828347dd111ab4a6456/spring-security-config-6.2.0-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-config/6.2.0/bcfe1e3d9aaa2cdfc46e48ae6c22dccfca5d77da/spring-security-config-6.2.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-core/6.2.0/a89bdca293596922f0987fa6a6191e1b96864123/spring-security-core-6.2.0-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-core/6.2.0/7542f0da00c7bbe5a3f32a8710490a62c396ff52/spring-security-core-6.2.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/6.1.1/649851d4c84070c32c10529e7925d48d5f672b38/spring-context-6.1.1-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/6.1.1/610d7dd3f62d22d42b993a201e3110649b68e17/spring-context-6.1.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/com.thetransactioncompany/cors-filter/2.10/e6eb1e747a398be1bc054ff5d03a08de533b6ef0/cors-filter-2.10-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/com.thetransactioncompany/cors-filter/2.10/b8caec61ad0e0f3b2db5ed28072a911679843193/cors-filter-2.10.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.postgresql/postgresql/42.6.0/68ba613810784b375ab855cf1fa639bc5b254ecd/postgresql-42.6.0-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.postgresql/postgresql/42.6.0/7614cfce466145b84972781ab0079b8dea49e363/postgresql-42.6.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/com.vladmihalcea/hibernate-types-60/2.21.1/70242abd93477017a0f780985003af96a522088f/hibernate-types-60-2.21.1-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/com.vladmihalcea/hibernate-types-60/2.21.1/28c37c89e0dac045737247499dc2ce85ba6c776a/hibernate-types-60-2.21.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/io.hypersistence/hypersistence-utils-hibernate-60/3.6.1/f06f68fc621efb6175b1c98ba2d45c115659351/hypersistence-utils-hibernate-60-3.6.1-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/io.hypersistence/hypersistence-utils-hibernate-60/3.6.1/75a7ce53da5f3474bdc41c1037ff3f0fbeabfb1d/hypersistence-utils-hibernate-60-3.6.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/com.mchange/c3p0/0.9.5.5/7a86790c4f73d20112e0bbfb9718384950569169/c3p0-0.9.5.5-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/com.mchange/c3p0/0.9.5.5/37dfc3021e5589d65ff2ae0becf811510b87ab01/c3p0-0.9.5.5.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aspects/6.1.1/4cc0eae4805b3c432c28d021e83590e42f86b52a/spring-aspects-6.1.1-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aspects/6.1.1/bfcb6682e205b4ef6ae7986ac7ea35eae29f31f4/spring-aspects-6.1.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.springframework/spring-orm/6.1.1/9f4d9e8320d5e9fe37df7004c247b6982b7e1842/spring-orm-6.1.1-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.springframework/spring-orm/6.1.1/e9672bb788f74ed12f9ad9e2bf12eb9e4d7c8695/spring-orm-6.1.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jdbc/6.1.1/fbdba039cb4797afdfb4959ede42b6d6b4f6a107/spring-jdbc-6.1.1-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jdbc/6.1.1/92f1f65c3d8ccee4a86cd8f85a446d99f2915833/spring-jdbc-6.1.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/6.1.1/831de15965e3022e5fc7792fa358b4ac74e09a0d/spring-tx-6.1.1-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/6.1.1/100cf99c3e41b12eab810d780c0e6e3905c51c12/spring-tx-6.1.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/javax.media/jai-core/1.1.3/b179d2efb1174658483e8b41bf4ac9d2eb5de438/jai-core-1.1.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/jakarta.servlet/jakarta.servlet-api/6.0.0/4a67061af80d50fd8fba23298f2be1911008cb37/jakarta.servlet-api-6.0.0-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/jakarta.servlet/jakarta.servlet-api/6.0.0/abecc699286e65035ebba9844c03931357a6a963/jakarta.servlet-api-6.0.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/jakarta.mail/jakarta.mail-api/2.1.2/662bb55bd4608f301eb9413b788dfd31e02ad407/jakarta.mail-api-2.1.2-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/jakarta.mail/jakarta.mail-api/2.1.2/e2f24836f1720a6b53d98240a78b4860597428c8/jakarta.mail-api-2.1.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/32.1.3-jre/9fa794e2f2d4e62ff849327ed06a679ecdcd4187/guava-32.1.3-jre-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/32.1.3-jre/f306708742ce2bf0fb0901216183bc14073feae/guava-32.1.3-jre.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-access/1.4.11/d0cd94f1c9b422df3057008a3900731f6d3e9c89/logback-access-1.4.11-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-access/1.4.11/e9d4c4481321b8303d5ba5babca66a5c328005e0/logback-access-1.4.11.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/2.2/575a7915b847393207642575c139177ac2b2ac23/snakeyaml-2.2-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/2.2/3af797a25458550a16bf89acc8e4ab2b7f2bfce0/snakeyaml-2.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/com.github.spullara.cli-parser/cli-parser/1.1.6/9b7ba9d12b7825b1421f7972a466d5bfa655de76/cli-parser-1.1.6-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/com.github.spullara.cli-parser/cli-parser/1.1.6/c994ab79b612e8f4f394bd208ee19eee0191e806/cli-parser-1.1.6.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/com.sun.mail/javax.mail/1.6.2/f74a1213edad69087c1f8829ca7c68adcce35942/javax.mail-1.6.2-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/com.sun.mail/javax.mail/1.6.2/935151eb71beff17a2ffac15dd80184a99a0514f/javax.mail-1.6.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-s3/1.12.578/52151e0edea0c01eb198c2ad70aed854660e7994/aws-java-sdk-s3-1.12.578-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-s3/1.12.578/5a33cd4a26c5a4dc16394bfbbad71bce698f99d/aws-java-sdk-s3-1.12.578.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/com.adobe.xmp/xmpcore/6.1.11/852f14101381e527e6d43339d7db1698c970436c/xmpcore-6.1.11.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/io.sentry/sentry-logback/7.0.0/5eeaf9028aca63c2180b36081fbad0e6ea176d95/sentry-logback-7.0.0-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/io.sentry/sentry-logback/7.0.0/423551991f86aafd5b2fd3c766821becbc53ff94/sentry-logback-7.0.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/net.logstash.logback/logstash-logback-encoder/7.4/568f143282fd17f24248f3d7cef24bcd5addefa8/logstash-logback-encoder-7.4-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/net.logstash.logback/logstash-logback-encoder/7.4/4573c7882277096adf58dd6485f38400b028aa93/logstash-logback-encoder-7.4.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/net.sf.jasperreports/jasperreports-functions/6.20.6/c53cffe325efd6750c022e7f29e58a268b31d5df/jasperreports-functions-6.20.6-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/net.sf.jasperreports/jasperreports-functions/6.20.6/3a8816b9a7c5bdaeb02a8530e61a0666f0ccd7f2/jasperreports-functions-6.20.6.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/net.sf.jasperreports/jasperreports/6.20.6/91c8d470b4e5b49d42c9dc9bb850d7e47f4ed79c/jasperreports-6.20.6-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/net.sf.jasperreports/jasperreports/6.20.6/3e4343985f9b2e88f5554b789b85f90e040609aa/jasperreports-6.20.6.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/net.sf.jasperreports/jasperreports-fonts/6.20.6/ecd8b6f4136e9951e9e19cbda876ecfbe0fa632a/jasperreports-fonts-6.20.6.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-kms/1.12.578/888a9b8c6288f9ec0d19c0bb98c46d7c251143dd/aws-java-sdk-kms-1.12.578-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-kms/1.12.578/844116262601f3f773bf7f62f5b7b5ac55541221/aws-java-sdk-kms-1.12.578.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-core/1.12.578/d56e82c63049018c606ad365085c9438cc7038f8/aws-java-sdk-core-1.12.578-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-core/1.12.578/8610b6b71d11ad0fe26a1bb719ebbe19554c1962/aws-java-sdk-core-1.12.578.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.12.5/ee5eead14742e19f0e5deda19ef29bea650fcac2/joda-time-2.12.5-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.12.5/698ce67b5e58becfb4ef2cf0393422775e59dff4/joda-time-2.12.5.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/6.1.1/6e38793c6f2fb08afa6d8712a63be8bebd923065/spring-aop-6.1.1-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/6.1.1/66cb0e08770d4523ae3976b0b791cde767466c61/spring-aop-6.1.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/6.1.1/7a48fcd36752a8702b29e15a222bce4372b72d06/spring-beans-6.1.1-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/6.1.1/6af88af13193acf2197bc0a42f0ec4e5c481bfe9/spring-beans-6.1.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/6.1.1/9b8a778ee7a384f017910bb10a7585a5d769a43d/spring-expression-6.1.1-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/6.1.1/807700a64cb055ed85af189d1fa0702bc0d2efba/spring-expression-6.1.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/6.1.1/2b89fdace7991bb2c50328f9076c1c7b3f85930c/spring-core-6.1.1-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/6.1.1/22d73bef97aff8a74a992716fe1aafc8f8a8a68d/spring-core-6.1.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/io.micrometer/micrometer-observation/1.12.0/f079a24e5081ab907c1fc27a01c22062f75927ae/micrometer-observation-1.12.0-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/io.micrometer/micrometer-observation/1.12.0/4f4981faa7968441d0092107df9b750e057374af/micrometer-observation-1.12.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.4.11/9899e21389d8b800a9c093c9e43afefe7824dd62/logback-core-1.4.11-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.4.11/2f9f280219a9922a74200eaf7138c4c17fb87c0f/logback-core-1.4.11.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.hsqldb/hsqldb/2.7.2/f73d47dafc9ec25b95be4ca6db39f287ab23d05a/hsqldb-2.7.2-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.hsqldb/hsqldb/2.7.2/d92d4d2aa515714da2165c9d640d584c2896c9df/hsqldb-2.7.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.imageio-ext/imageio-ext-cog-commons/1.4.7/eed308c77638a864ef486ef0e6feaa590923ae0d/imageio-ext-cog-commons-1.4.7-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.imageio-ext/imageio-ext-cog-commons/1.4.7/34393b8853cd5021528c44e784ce3c449999fefb/imageio-ext-cog-commons-1.4.7.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.imageio-ext/imageio-ext-tiff/1.4.7/64a9eb6d3678e2d40853e76b476a0e927023a146/imageio-ext-tiff-1.4.7-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.imageio-ext/imageio-ext-tiff/1.4.7/75ce47cf0a37762f1a0959df5bf0efa690bf85e5/imageio-ext-tiff-1.4.7.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.imageio-ext/imageio-ext-geocore/1.4.7/17010aea31ca3552b8af2f70085ad898b4b04844/imageio-ext-geocore-1.4.7-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.imageio-ext/imageio-ext-geocore/1.4.7/31a4bf8686b5841acfd94a40d0a8c95a9c2c27d9/imageio-ext-geocore-1.4.7.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.imageio-ext/imageio-ext-streams/1.4.7/130431e1d8f9c4ab61d6b6c8e4d6c73d7e526450/imageio-ext-streams-1.4.7-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.imageio-ext/imageio-ext-streams/1.4.7/1620f9a929d3f89587b3a1cc52bcc42f1883b2cb/imageio-ext-streams-1.4.7.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.imageio-ext/imageio-ext-utilities/1.4.7/8ca0576cccea35c614e6d30247be07b816e4411b/imageio-ext-utilities-1.4.7-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.imageio-ext/imageio-ext-utilities/1.4.7/97ea97f088b4763ecc8818c3825076038f94597d/imageio-ext-utilities-1.4.7.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.geotools/gt-opengis/29.3/1ee125685de65c5310082ec5505551023e080702/gt-opengis-29.3-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.geotools/gt-opengis/29.3/d2ca150236772beb107185f5845ba32786fe577a/gt-opengis-29.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.geotools.ogc/net.opengis.ows/29.3/5d3653eb7327480dd849846d4395cf69d6c4fd89/net.opengis.ows-29.3-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.geotools.ogc/net.opengis.ows/29.3/8ce59a2fefd410c59d938f18968452a1c946a327/net.opengis.ows-29.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.geotools.ogc/org.w3.xlink/29.3/303ef1121b579ac1239f301602a0f1f83d640557/org.w3.xlink-29.3-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.geotools.ogc/org.w3.xlink/29.3/ca250889007f60f5d44457fa150ddfce018ae6c0/org.w3.xlink-29.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/javax.media/jai_core/1.1.3/b179d2efb1174658483e8b41bf4ac9d2eb5de438/jai_core-1.1.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/com.googlecode.json-simple/json-simple/1.1.1/15bba08e3a239d54b68209c001f9c911559d2fed/json-simple-1.1.1-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/com.googlecode.json-simple/json-simple/1.1.1/c9ad4a0850ab676c5c64461a05ca524cdfff59f1/json-simple-1.1.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/javax.media/jai_imageio/1.1/27d867283f9043b05a8fb210773d0ef72b767a58/jai_imageio-1.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/com.thetransactioncompany/java-property-utils/1.16/64c5d1053bf6b760581af93a9fed4268e88fa162/java-property-utils-1.16-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/com.thetransactioncompany/java-property-utils/1.16/48893f619faf0d7604f09f78dd28fd83a5ebb6bd/java-property-utils-1.16.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/3.37.0/9990309889a76e4c6556c18140ce8559b854bae3/checker-qual-3.37.0-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/3.37.0/ba74746d38026581c12166e164bb3c15e90cc4ea/checker-qual-3.37.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/javax.xml.bind/jaxb-api/2.4.0-b180830.0359/76eeee760b97819cb6fd6e3dd24df05ebbe6f9f8/jaxb-api-2.4.0-b180830.0359-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/javax.xml.bind/jaxb-api/2.4.0-b180830.0359/b54184b7dcab2031add3f525550c7f1b7e12209d/jaxb-api-2.4.0-b180830.0359.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.glassfish.jaxb/jaxb-runtime/4.0.2/d8ac8efda28069eab004c99cc43202cafe8184a4/jaxb-runtime-4.0.2-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.glassfish.jaxb/jaxb-runtime/4.0.2/e4e4e0c5b0d42054d00dc4023901572a60d368c7/jaxb-runtime-4.0.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.glassfish.jaxb/jaxb-core/4.0.2/ce7047bbe21999c85e6c6ea51f2ea555b5f9dfa4/jaxb-core-4.0.2-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.glassfish.jaxb/jaxb-core/4.0.2/8c29249f6c10f4ee08967783831580b0f5c5360/jaxb-core-4.0.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/jakarta.xml.bind/jakarta.xml.bind-api/4.0.0/b8e46353907cfaccef843fff62d72476f8ad88ce/jakarta.xml.bind-api-4.0.0-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/jakarta.xml.bind/jakarta.xml.bind-api/4.0.0/bbb399208d288b15ec101fa4fcfc4bd77cedc97a/jakarta.xml.bind-api-4.0.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/io.hypersistence/hypersistence-tsid/2.1.1/ad4749ca7854952d5f9bd6eef62f93bf82368ff9/hypersistence-tsid-2.1.1-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/io.hypersistence/hypersistence-tsid/2.1.1/a80cf39312e81f97c8c84924a52bd8fafb4bfea4/hypersistence-tsid-2.1.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/com.mchange/mchange-commons-java/0.2.19/91a05a2e27efc8e8b95638926d6e0bf41d1cdd2c/mchange-commons-java-0.2.19-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/com.mchange/mchange-commons-java/0.2.19/7a4bee38ea02bd7dee776869b19fb3f6861d6acf/mchange-commons-java-0.2.19.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjweaver/1.9.20.1/92c96d3f7be6a80a3f1fc540b2ebee4c4af97bbd/aspectjweaver-1.9.20.1-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjweaver/1.9.20.1/33b0e41476658229933eec7134678cf336e66dd4/aspectjweaver-1.9.20.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.eclipse.angus/angus-activation/2.0.0/cb50d6abc1e0491aa2e33f1f2fb54cd15b8bef43/angus-activation-2.0.0-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.eclipse.angus/angus-activation/2.0.0/72369f4e2314d38de2dcbb277141ef0226f73151/angus-activation-2.0.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/jakarta.activation/jakarta.activation-api/2.1.2/d0310cf32e4c43f65b942c18cb2cc2bccfe2de37/jakarta.activation-api-2.1.2-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/jakarta.activation/jakarta.activation-api/2.1.2/640c0d5aff45dbff1e1a1bc09673ff3a02b1ba12/jakarta.activation-api-2.1.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/com.google.guava/failureaccess/1.0.1/1d064e61aad6c51cc77f9b59dc2cccc78e792f5a/failureaccess-1.0.1-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/com.google.guava/failureaccess/1.0.1/1dcf1de382a0bf95a3d8b0849546c88bac1292c9/failureaccess-1.0.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/com.google.guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/b421526c5f297295adef1c886e5246c39d4ac629/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/b19b5927c2c25b6c70f093767041e641ae0b1b35/jsr305-3.0.2-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.21.1/68e62df0cf0c3927fa98f6d795543ecbeb919521/error_prone_annotations-2.21.1-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.21.1/6d9b10773b5237df178a7b3c1b4208df7d0e7f94/error_prone_annotations-2.21.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents.core5/httpcore5-h2/5.2.4/19d448699f629b6a3298ab661dc2caf12ac6abce/httpcore5-h2-5.2.4-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents.core5/httpcore5-h2/5.2.4/2872764df7b4857549e2880dd32a6f9009166289/httpcore5-h2-5.2.4.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents.core5/httpcore5/5.2.4/1bcb2ce8d159b306c438932ec0a14c32ea3480c0/httpcore5-5.2.4-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents.core5/httpcore5/5.2.4/34d8332b975f9e9a8298efe4c883ec43d45b7059/httpcore5-5.2.4.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/javax.activation/activation/1.1/3697e9f67a2ed7ac5f589cff30f21173299440/activation-1.1-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/javax.activation/activation/1.1/e6cb541461c2834bdea3eb920f1884d1eb508b50/activation-1.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/com.amazonaws/jmespath-java/1.12.578/9197dd3cf7940894215e139f329adae5c03c955f/jmespath-java-1.12.578-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/com.amazonaws/jmespath-java/1.12.578/f0dc7c4dd92de4eb110dac1545454b74e5ecf582/jmespath-java-1.12.578.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/io.sentry/sentry/7.0.0/75b8f0755f4e3f25435fa83a00cee62a9498a9c9/sentry-7.0.0-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/io.sentry/sentry/7.0.0/a40a75d5fb5bfd221866aa83fe28570319aac57f/sentry-7.0.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor/2.15.2/e3246439b0330dd1a2a0920470bf2f6eb3903999/jackson-dataformat-cbor-2.15.2-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor/2.15.2/baafc85c70765594add14bd93f3efd68e1945b76/jackson-dataformat-cbor-2.15.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.dataformat/jackson-dataformat-xml/2.15.2/dcd784e09bac980c55dc4ef07266beaf7be6b261/jackson-dataformat-xml-2.15.2-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.dataformat/jackson-dataformat-xml/2.15.2/e7e9038dee5c1adb1ebd07d3669e0e1182ac5b60/jackson-dataformat-xml-2.15.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.15.2/4d3e4ff17d2cda69f8fd692694c304ff38a75823/jackson-core-2.15.2-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.15.2/a6fe1836469a69b3ff66037c324d75fc66ef137c/jackson-core-2.15.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.15.2/7458734de3b894cff3f3744ab11ff79b635c80e2/jackson-annotations-2.15.2-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.15.2/4724a65ac8e8d156a24898d50fd5dbd3642870b8/jackson-annotations-2.15.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.15.2/32d4d520f3e46e7b2c2d4d863d8f2f381af4fa6/jackson-databind-2.15.2-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.15.2/9353b021f10c307c00328f52090de2bdb4b6ff9c/jackson-databind-2.15.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-xml/1.17/e05dc68f77cd39199c05f38254ec5fb37c2d00f4/batik-xml-1.17-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-xml/1.17/15a0b4ba6260f3430632e4b1dad95383196107a8/batik-xml-1.17.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-util/1.17/6cf6a61c82696d7fbf10a3de24b7b43da9bd7346/batik-util-1.17-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-util/1.17/83ef2a8b449444a1d57e91e938522899317a8672/batik-util-1.17.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-ext/1.17/12f37f55e8194fb254a409ccc496d0ba69821a32/batik-ext-1.17-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-ext/1.17/fd2e4166a14f8bbe099162ad88cfe64be09d35a2/batik-ext-1.17.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-constants/1.17/b1dc53d92d0f0b79a5f3d908c242ca8db3a623fb/batik-constants-1.17-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-constants/1.17/22bf8b4c207dc46859db0269853186d8dfc8cb9a/batik-constants-1.17.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-i18n/1.17/b25b770ee03c7f82525ddd61791214466c797bdd/batik-i18n-1.17-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-i18n/1.17/39b233a71430ffa9d0282d47789a58fa8bf4f861/batik-i18n-1.17.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-shared-resources/1.17/79d95b0917e2bc7d8cd572be7140794aa7b5d78/batik-shared-resources-1.17-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-shared-resources/1.17/2862b81d9dc63990cb5586323b4a2410fc1f2249/batik-shared-resources-1.17.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/xml-apis/xml-apis-ext/1.3.04/41a8b86b358e87f3f13cf46069721719105aff66/xml-apis-ext-1.3.04.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/commons-digester/commons-digester/2.1/32d198e5ebef012249b225118c7cb9caae56c4d8/commons-digester-2.1-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/commons-digester/commons-digester/2.1/73a8001e7a54a255eef0f03521ec1805dc738ca0/commons-digester-2.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/commons-beanutils/commons-beanutils/1.9.4/f00e0ba867d1810f255876631ab440e0725a9af0/commons-beanutils-1.9.4-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/commons-beanutils/commons-beanutils/1.9.4/d52b9abcd97f38c81342bb7e7ae1eee9b73cba51/commons-beanutils-1.9.4.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-collections4/4.4/6260e416ff273ee938b31b0a8e512a367b1ee500/commons-collections4-4.4-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-collections4/4.4/62ebe7544cb7164d87e0637a2a6a2bdc981395e8/commons-collections4-4.4.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/com.github.librepdf/openpdf/1.3.30.jaspersoft.3/5239b9c26e0148349618e83adbdee6c2faea0bc8/openpdf-1.3.30.jaspersoft.3-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/com.github.librepdf/openpdf/1.3.30.jaspersoft.3/9297d48987f26b5cffc3fe4bcacb352132ce0fd9/openpdf-1.3.30.jaspersoft.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.jfree/jfreechart/1.0.19/5aae69aa497ce4ea82b59317102a09c5abc91ba1/jfreechart-1.0.19-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.jfree/jfreechart/1.0.19/ba9ee7dbb2e4c57a6901c79f614ed2dea9cc0e20/jfreechart-1.0.19.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.jfree/jcommon/1.0.23/76c1fec968d3f6e55cf9bea2855ad33d085a6b6/jcommon-1.0.23-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.jfree/jcommon/1.0.23/a316f336ca996e0c6bec4e4fbd49be8f5e1c3968/jcommon-1.0.23.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.eclipse.jdt/ecj/3.21.0/a143919dc9978bdf5977f04b19bc50cee00aa862/ecj-3.21.0-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.eclipse.jdt/ecj/3.21.0/d06974eec06892e5594bdb8fbbc95cd81f1c57b2/ecj-3.21.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-ant/3.0.19/62dc60083e5808ae07abe221edc1d17212bc582f/groovy-ant-3.0.19-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-ant/3.0.19/842303b0c3472a50e048d0e1fb255be2fdedbcb/groovy-ant-3.0.19.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-astbuilder/3.0.19/7db1304e4010a11eb51f05e778445f9be8a1d3f0/groovy-astbuilder-3.0.19-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-astbuilder/3.0.19/6867bb0d6a5ee96d45dee124dffa5a98d6af3fa6/groovy-astbuilder-3.0.19.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-cli-picocli/3.0.19/9da3291a2cd2535411e8c52a4b3c3736e1d8f686/groovy-cli-picocli-3.0.19-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-cli-picocli/3.0.19/46d21d919fdcf0d8ef6e5fd50fd01ed48d1f8081/groovy-cli-picocli-3.0.19.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-groovysh/3.0.19/d97fd9ce1095aa615e6f8cb9dec34b4460473bca/groovy-groovysh-3.0.19-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-groovysh/3.0.19/9fa14aeb5eb92c53d183a9a0df0cfff47d05d5e2/groovy-groovysh-3.0.19.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-console/3.0.19/d361da951b1e2d86ba99bb3631aebd65a50fb205/groovy-console-3.0.19-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-console/3.0.19/47d8f9fcba0051826f0eacabb099ddc2e6ac3d68/groovy-console-3.0.19.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-datetime/3.0.19/a5084939084a22207c809faf7899b587d0173e7d/groovy-datetime-3.0.19-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-datetime/3.0.19/d700d70aca4be63f50fcffa2c7834e0c4f8c781/groovy-datetime-3.0.19.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-groovydoc/3.0.19/8bddb44855a374cab54a60e8399d649559ded574/groovy-groovydoc-3.0.19-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-groovydoc/3.0.19/ae428c15338b71a8291860cca144afb97888fb3d/groovy-groovydoc-3.0.19.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-docgenerator/3.0.19/1d9e8acf9095e9b02dad72e79c494c23b465073b/groovy-docgenerator-3.0.19-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-docgenerator/3.0.19/2329377c09dd32e24f229593e3135b1152ff7487/groovy-docgenerator-3.0.19.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-jmx/3.0.19/1c62394952071ddc0eef5cf9a7b3dafe970dc667/groovy-jmx-3.0.19-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-jmx/3.0.19/4d5db1a85235248fed041d7534741cbabeecfa1b/groovy-jmx-3.0.19.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-json/3.0.19/4be9c1bdb3b2690d38dcedd7f676760ab109ba52/groovy-json-3.0.19-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-json/3.0.19/46d23f6782708f097d79fae10618fb2f5f3b6725/groovy-json-3.0.19.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-jsr223/3.0.19/8549fe5188c64df8ddf2a7443ae238723ef4e342/groovy-jsr223-3.0.19-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-jsr223/3.0.19/377bb341e991c48a1c9db0408f7b69c0709664fc/groovy-jsr223-3.0.19.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-macro/3.0.19/66b96dced27a4a47aac5b0423296c0f3901dec46/groovy-macro-3.0.19-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-macro/3.0.19/2ed68fbaefc80b5e27e7a61aae8a8b6b3a3662e8/groovy-macro-3.0.19.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-nio/3.0.19/958ee5d6129f2f0728948e6b2ddc2fdc01d2eca7/groovy-nio-3.0.19-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-nio/3.0.19/22e718219570b55570b5e02699910de9524ba93b/groovy-nio-3.0.19.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-servlet/3.0.19/b16f2fc8ab27a26d13c9b08631e8b3ce7909a943/groovy-servlet-3.0.19-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-servlet/3.0.19/4abdb03e1acb6fc760fd03381a1fe645dbe63925/groovy-servlet-3.0.19.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-sql/3.0.19/d9bf24cec2bc7aafddfb8c65bab98a028b6da607/groovy-sql-3.0.19-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-sql/3.0.19/bcfec6828cc60f758bae7f48d12d5201b4b4e64e/groovy-sql-3.0.19.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-swing/3.0.19/8ea8019af25f7cfdfe23d44096f4d3c168d5d7f2/groovy-swing-3.0.19-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-swing/3.0.19/647bd7987d0e5e7ff42e687b976cf26f84c5b853/groovy-swing-3.0.19.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-templates/3.0.19/b529cf7c8543234aa36d65510575034ed48d216a/groovy-templates-3.0.19-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-templates/3.0.19/1628059b5f34eb68b44e4021c70c143ab03f1239/groovy-templates-3.0.19.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-test-junit5/3.0.19/46c3a9a2cfb66a1ed3d7b287c0e6579af717a7b1/groovy-test-junit5-3.0.19-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-test-junit5/3.0.19/1e41128fcade809d3cca4a7c5572119544bf2ded/groovy-test-junit5-3.0.19.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-xml/3.0.19/ad8d76210167d677c000f40cb74242059b010a9/groovy-xml-3.0.19-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-xml/3.0.19/26a59bfc5e4812b5583de50903f924793582c6fc/groovy-xml-3.0.19.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy/3.0.19/b40a9c8cee7427aa4f0b65cfd7f3084775f6a0b1/groovy-3.0.19-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy/3.0.19/92b51fe5bf7e9534d74f77daf5cf05d0f15c7ea5/groovy-3.0.19.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.14/14321a360aa0e037c56d4c820747a84954d9196e/httpclient-4.5.14-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.14/1194890e6f56ec29177673f2f12d0b8e627dec98/httpclient-4.5.14.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.16/229e4c0eae80465381ae02adf61bca5558360777/httpcore-4.4.16-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.16/51cf043c87253c9f58b539c9f7e44c8894223850/httpcore-4.4.16.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/com.helger/profiler/1.1.1/81a619f510e4ecf3ade4c84ea61d3ea09161ced4/profiler-1.1.1-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/com.helger/profiler/1.1.1/c92a582728b09b47de38b1b97bd2e5b0c8cd553c/profiler-1.1.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jcl/6.1.1/642500afb47d63ba51348d2775a9067af6ec5f66/spring-jcl-6.1.1-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jcl/6.1.1/69ebbf7bad707d34e81d00213c756bc6fcc31dd7/spring-jcl-6.1.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/io.micrometer/micrometer-commons/1.12.0/3b7271c7ba1b7964ed63d751b62676f93103b5ec/micrometer-commons-1.12.0-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/io.micrometer/micrometer-commons/1.12.0/2436654d439bd4ff6aad6419519357be8ba4f0d/micrometer-commons-1.12.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.ejml/ejml-ddense/0.41/74960a7434b465ec7b5fae58fca4be22b2dc743c/ejml-ddense-0.41-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.ejml/ejml-ddense/0.41/782c80d4c3c8a3432c4641f24c177f336a360f9c/ejml-ddense-0.41.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/commons-pool/commons-pool/1.5.4/3e226507788e09f02eef641e868624fb823af6e6/commons-pool-1.5.4-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/commons-pool/commons-pool/1.5.4/75b6e20c596ed2945a259cea26d7fadd298398e6/commons-pool-1.5.4.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/it.geosolutions.jgridshift/jgridshift-core/1.3/314702a7b6e634e1c74589983a6762974b9c51c8/jgridshift-core-1.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/net.sf.geographiclib/GeographicLib-Java/1.49/7492f34e181ceb6648c90c6a34109711b729c084/GeographicLib-Java-1.49-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/net.sf.geographiclib/GeographicLib-Java/1.49/7ff2164e69fa04e1ef2ca5079e1cee298a936ea1/GeographicLib-Java-1.49.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/com.google.re2j/re2j/1.6/d9a16d2be200dffc0c56ba125ed72085661ef06/re2j-1.6-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/com.google.re2j/re2j/1.6/a13e879fd7971738d06020fefeb108cc14e14169/re2j-1.6.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/io.airlift/aircompressor/0.20/943f03d3ab5d3d503e7ae6feb34ba1fdc31e802a/aircompressor-0.20-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/io.airlift/aircompressor/0.20/de3ff8b5f9b9128d7c2beb0b4e79d6dc646f1125/aircompressor-0.20.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/javax.media/jai_codec/1.1.3/34a67ba62097778e4695c951156bf189c2c8e016/jai_codec-1.1.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.apache.xml/xml-commons-resolver/1.2/3d0f97750b3a03e0971831566067754ba4bfd68c/xml-commons-resolver-1.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/picocontainer/picocontainer/1.2/c55e869dcdddd735acd8789b74863cde8d15d444/picocontainer-1.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/commons-jxpath/commons-jxpath/1.3/8635d6b633d632d5aad1924fb0dc767b4527689/commons-jxpath-1.3-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/commons-jxpath/commons-jxpath/1.3/c22d7d0f0f40eb7059a23cfa61773a416768b137/commons-jxpath-1.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.eclipse.emf/org.eclipse.emf.ecore.xmi/2.15.0/4801db71669288ac16dbe61c277cad3bfbfaf154/org.eclipse.emf.ecore.xmi-2.15.0-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.eclipse.emf/org.eclipse.emf.ecore.xmi/2.15.0/9aa1a584be1df1eb0ef8fae7123784af6e51f47a/org.eclipse.emf.ecore.xmi-2.15.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.eclipse.emf/org.eclipse.emf.ecore/2.15.0/1c8130eaa5b339ece818da45978818ece784c82f/org.eclipse.emf.ecore-2.15.0-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.eclipse.emf/org.eclipse.emf.ecore/2.15.0/ccfc09c8b6a0d4fadde09216d8a07678d38998de/org.eclipse.emf.ecore-2.15.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.eclipse.emf/org.eclipse.emf.common/2.15.0/aaed0b9735ac547c9dbc99696d4360b14e2448f/org.eclipse.emf.common-2.15.0-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.eclipse.emf/org.eclipse.emf.common/2.15.0/e0f1608a9855651e899d609b106ae78f903a2f04/org.eclipse.emf.common-2.15.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.eclipse.xsd/org.eclipse.xsd/2.12.0/ee10585aa5247dc3c2226baccc84ad477f4d369c/org.eclipse.xsd-2.12.0-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.eclipse.xsd/org.eclipse.xsd/2.12.0/1d4c0da59535d3b79e73a91b1f161c97d3103668/org.eclipse.xsd-2.12.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-crypto/6.2.0/da46ba6789dd12ef5205e9f9aebde516787a1a5/spring-security-crypto-6.2.0-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-crypto/6.2.0/7cee6007ede44a19a3773912dbdac86ff53d0549/spring-security-crypto-6.2.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/jakarta.persistence/jakarta.persistence-api/3.1.0/8d479b8d71750d5c2b8e58034b80231994cba6ec/jakarta.persistence-api-3.1.0-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/jakarta.persistence/jakarta.persistence-api/3.1.0/66901fa1c373c6aff65c13791cc11da72060a8d6/jakarta.persistence-api-3.1.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/jakarta.transaction/jakarta.transaction-api/2.0.1/660c982b9f5a7c8a6613c84f6e1c8b9221a4c574/jakarta.transaction-api-2.0.1-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/jakarta.transaction/jakarta.transaction-api/2.0.1/51a520e3fae406abb84e2e1148e6746ce3f80a1a/jakarta.transaction-api-2.0.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.5.0.Final/ad075152c4716d3d2b285444551ca88c8f996bf1/jboss-logging-3.5.0.Final-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.5.0.Final/c19307cc11f28f5e2679347e633a3294d865334d/jboss-logging-3.5.0.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.hibernate.common/hibernate-commons-annotations/6.0.6.Final/113904346d97dbdf52883c90ef1ccd0bb8ffb74d/hibernate-commons-annotations-6.0.6.Final-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.hibernate.common/hibernate-commons-annotations/6.0.6.Final/77a5f94b56d49508e0ee334751db5b78e5ccd50c/hibernate-commons-annotations-6.0.6.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/io.smallrye/jandex/3.1.2/35283029daace9fdef053223d8759d24562d51b3/jandex-3.1.2-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/io.smallrye/jandex/3.1.2/a6c1c89925c7df06242b03dddb353116ceb9584c/jandex-3.1.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/com.fasterxml/classmate/1.5.1/504edac38ff03cc5ce1d0391abb1416ffad58a99/classmate-1.5.1-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/com.fasterxml/classmate/1.5.1/3fe0bed568c62df5e89f4f174c101eab25345b6c/classmate-1.5.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/jakarta.inject/jakarta.inject-api/2.0.1/569d6c5f18d6ff83c82152d1870cf0faf830c594/jakarta.inject-api-2.0.1-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/jakarta.inject/jakarta.inject-api/2.0.1/4c28afe1991a941d7702fe1362c365f0a8641d1e/jakarta.inject-api-2.0.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.antlr/antlr4-runtime/4.10.1/a5214c71b2fa1d776d69674bf75eeb3f1fee8a62/antlr4-runtime-4.10.1-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.antlr/antlr4-runtime/4.10.1/10839f875928f59c622d675091d51a43ea0dc5f7/antlr4-runtime-4.10.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.15/843bc57fd042051e994846da8167bb7ca677a6d/commons-codec-1.15-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.15/49d94806b6e3dc933dacbd8acb0fdbab8ebd1e5d/commons-codec-1.15.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/software.amazon.ion/ion-java/1.0.2/3077203a7e79dd126a480da0491ec60238bbb872/ion-java-1.0.2-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/software.amazon.ion/ion-java/1.0.2/ee9dacea7726e495f8352b81c12c23834ffbc564/ion-java-1.0.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/xml-apis/xml-apis/1.4.01/5502da0c4c0a7916a604356ef19394ccfa30cd4b/xml-apis-1.4.01-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/xml-apis/xml-apis/1.4.01/3789d9fada2d3d458c4ba2de349d48780f381ee3/xml-apis-1.4.01.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2.2/78c50ebda5784937ca1615fc0e1d0cb35857d572/commons-collections-3.2.2-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2.2/8ad72fe39fa8c91eaaf12aadb21e0c3661fe26d5/commons-collections-3.2.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/com.fasterxml.woodstox/woodstox-core/6.5.1/f874e648191152477574183a1b01c2a7c4121ba4/woodstox-core-6.5.1-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/com.fasterxml.woodstox/woodstox-core/6.5.1/c6e52e84fe959e69a243c83ec7d24cd889444ddf/woodstox-core-6.5.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.codehaus.woodstox/stax2-api/4.2.1/8d0d447792449c247f739781838cd620687074b/stax2-api-4.2.1-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.codehaus.woodstox/stax2-api/4.2.1/a3f7325c52240418c2ba257b103c3c550e140c83/stax2-api-4.2.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.apache.ant/ant-junit/1.10.12/1be188d9419a1f8148d1dc4f6a8308f746a66880/ant-junit-1.10.12-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.apache.ant/ant-junit/1.10.12/81bde3486c2ed79cb6f699c2a5a77b0340d1f2e8/ant-junit-1.10.12.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.apache.ant/ant/1.10.12/3efd45223b70acda49fad3c0983ad2a1468f7628/ant-1.10.12-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.apache.ant/ant/1.10.12/be08c4f63e92e03bac761404cf77bc270928b6c5/ant-1.10.12.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.apache.ant/ant-launcher/1.10.12/d8d34c474280b9dddaa47366c0c891122b2c6861/ant-launcher-1.10.12-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.apache.ant/ant-launcher/1.10.12/e090b4f9d3ecf45491cc16e759f1e843a1a224c0/ant-launcher-1.10.12.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.apache.ant/ant-antlr/1.10.12/92cae619d533640dce608d072a1df734d591cbb0/ant-antlr-1.10.12-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.apache.ant/ant-antlr/1.10.12/74b17ef7229f3d7c0d55d42486889cc553ab04d6/ant-antlr-1.10.12.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/info.picocli/picocli/4.6.3/c2cf5e857500c2e8429621856f7e86add62adda5/picocli-4.6.3-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/info.picocli/picocli/4.6.3/18177f4c3d65cc94e6d4039775ec5aed8089f8d0/picocli-4.6.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/com.thoughtworks.qdox/qdox/1.12.1/a284148a118e10bb84598dfb83f19d1ff128afad/qdox-1.12.1-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/com.thoughtworks.qdox/qdox/1.12.1/f7122f6ab1f64bdf9f5970b0e89bfb355e036897/qdox-1.12.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/com.github.javaparser/javaparser-core/3.25.4/8a9fec37c81bf4d6a414446373e8cffb37bd5b29/javaparser-core-3.25.4-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/com.github.javaparser/javaparser-core/3.25.4/bb8741a88669c9748552ef4a7d51bcc0301b5546/javaparser-core-3.25.4.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/jline/jline/2.14.6/e93dc55cf5b6f201e850ed339fa52e50d51105d5/jline-2.14.6-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/jline/jline/2.14.6/c3aeac59c022bdc497c8c48ed86fa50450e4896a/jline-2.14.6.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-launcher/1.9.2/127cb253e495382cf9683a9acfaf7633bf27b2a7/junit-platform-launcher-1.9.2-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-launcher/1.9.2/38e0bfad8c57d4cd1a8f27926c25ffe9543068d6/junit-platform-launcher-1.9.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.9.2/819f0849cf19b1f46718c36a4fc8406c87bced45/junit-platform-engine-1.9.2-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.9.2/40aeef2be7b04f96bb91e8b054affc28b7c7c935/junit-platform-engine-1.9.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.9.2/44bff8441bcb66b817b5a9d5c1a6717cdf26dbde/junit-platform-commons-1.9.2-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.9.2/6f9f8621d8230cd38aa42e58ccbc0c00569131ce/junit-platform-commons-1.9.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.9.2/128d5b5b681442f6eeab0c8c17825983cc233d68/junit-jupiter-engine-5.9.2-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.9.2/572f7a553b53f83ee59cc045ce1c3772864ab76c/junit-jupiter-engine-5.9.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.9.2/5232572dbe6548235580494edb226fed76109643/junit-jupiter-api-5.9.2-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.9.2/fed843581520eac594bc36bb4b0f55e7b947dda9/junit-jupiter-api-5.9.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.ejml/ejml-core/0.41/5dc81c10632f1cf730c52dabab4acdb534fb05d3/ejml-core-0.41-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.ejml/ejml-core/0.41/92ac2bee332a5697c42e576b94d563ba8c25877c/ejml-core-0.41.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.huldra.math/bigint/0.7.1/beb4ba7ca91d7f3875ef77f69052ceb37f5b3db2/bigint-0.7.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/javax.activation/javax.activation-api/1.2.0/1b4c6e77d35adab19794746d8ea753df30d77dca/javax.activation-api-1.2.0-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/javax.activation/javax.activation-api/1.2.0/85262acf3ca9816f9537ca47d5adeabaead7cb16/javax.activation-api-1.2.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.opentest4j/opentest4j/1.2.0/41d55b3c2254de9837b4ec8923cbd371b8a7eab5/opentest4j-1.2.0-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.opentest4j/opentest4j/1.2.0/28c11eb91f9b6d8e200631d46e20a7f407f2a046/opentest4j-1.2.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/com.beust/jcommander/1.78/3b3dc3730f4d623904afc62a463ae18710a889d3/jcommander-1.78-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/com.beust/jcommander/1.78/a3927de9bd6f351429bcf763712c9890629d8f51/jcommander-1.78.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.webjars/jquery/3.5.1/67e674e2c5c16e92e66971c2bee2739f0b833723/jquery-3.5.1-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.webjars/jquery/3.5.1/2392938e374f561c27c53872bdc9b6b351b6ba34/jquery-3.5.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/systems.uom/systems-common/2.1/f50f4044a905f81c3b4a2de9973df312e592e2bf/systems-common-2.1-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/systems.uom/systems-common/2.1/a173cc6f1fedc8b32498d6cc9599251baa72de27/systems-common-2.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/tech.units/indriya/2.1.3/1cb8ee7889c0d3adfe754995108fa9e0a6573a96/indriya-2.1.3-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/tech.units/indriya/2.1.3/d3cc55737619a2f50382592d369726e49d4f69bf/indriya-2.1.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.glassfish.jaxb/txw2/4.0.2/6f202b9fd5ced3d369fb5d5f58cbf12bc568cfd7/txw2-4.0.2-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.glassfish.jaxb/txw2/4.0.2/24e167be69c29ebb7ee0a3b1f9b546f1dfd111fc/txw2-4.0.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/com.sun.istack/istack-commons-runtime/4.1.1/e7ed552d83b79b0b36d8c7cd2f64e523110795d3/istack-commons-runtime-4.1.1-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/com.sun.istack/istack-commons-runtime/4.1.1/9b3769c76235bc283b060da4fae2318c6d53f07e/istack-commons-runtime-4.1.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/si.uom/si-units/2.1/a6da592d6d49fb4412c0fe6d8bdbfb8a9c890eac/si-units-2.1-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/si.uom/si-units/2.1/7e812192ff1abbef6c79123249840c42b4e145d4/si-units-2.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/si.uom/si-quantity/2.1/dfb4ad5a822467a1d17d1acac9b6d1526af126a5/si-quantity-2.1-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/si.uom/si-quantity/2.1/5617d2cf30898ffcc760807009fe947483bd867b/si-quantity-2.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/tech.uom.lib/uom-lib-common/2.1/7c6475c0b3e350a3750508130fa2d566c033df20/uom-lib-common-2.1-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/tech.uom.lib/uom-lib-common/2.1/17d8a4458116466b004976f3c7834be185cffb86/uom-lib-common-2.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/javax.measure/unit-api/2.1.3/2387cde9e1d4d2e7f032546bf4c1025c60127b44/unit-api-2.1.3-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/javax.measure/unit-api/2.1.3/76e3c98cc101cdb8ebf437e4327e8de4ab92613/unit-api-2.1.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/a00123f261762a7c5e0ec916a2c7c8298d29c400/javax.inject-1-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.apiguardian/apiguardian-api/1.1.1/f69264a564e8bf11729b029906d24592be3a3432/apiguardian-api-1.1.1-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/org.apiguardian/apiguardian-api/1.1.1/7ea550039f115fcc40990925490b8ebd4b93024a/apiguardian-api-1.1.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/jusabatier/.gradle/caches/modules-2/files-2.1/jakarta.annotation/jakarta.annotation-api/1.3.4/66d2547b0bb966feea13a648c745fbf3a44bb7c3/jakarta.annotation-api-1.3.4-sources.jar" kind="lib" path="/home/jusabatier/.gradle/caches/modules-2/files-2.1/jakarta.annotation/jakarta.annotation-api/1.3.4/a858ec3f0ebd2b8d855c1ddded2cde9b381b0517/jakarta.annotation-api-1.3.4.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+</classpath>

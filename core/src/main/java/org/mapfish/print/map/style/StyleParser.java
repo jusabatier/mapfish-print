@@ -3,7 +3,7 @@ package org.mapfish.print.map.style;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
-import javax.annotation.Nonnull;
+import jakarta.annotation.Nonnull;
 import org.geotools.factory.CommonFactoryFinder;
 import org.geotools.styling.Style;
 import org.geotools.styling.StyleFactory;

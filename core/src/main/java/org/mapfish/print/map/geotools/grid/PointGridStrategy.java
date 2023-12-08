@@ -1,7 +1,7 @@
 package org.mapfish.print.map.geotools.grid;
 
 import java.awt.geom.AffineTransform;
-import javax.annotation.Nonnull;
+import jakarta.annotation.Nonnull;
 import org.geotools.data.FeatureSource;
 import org.geotools.data.collection.CollectionFeatureSource;
 import org.geotools.feature.DefaultFeatureCollection;

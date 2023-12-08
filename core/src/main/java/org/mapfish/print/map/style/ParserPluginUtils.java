@@ -11,6 +11,7 @@ import org.geotools.styling.Style;
 import org.mapfish.print.config.Configuration;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.HttpStatusCode;
 import org.springframework.http.client.ClientHttpRequest;
 import org.springframework.http.client.ClientHttpRequestFactory;
 import org.springframework.http.client.ClientHttpResponse;
@@ -34,7 +35,7 @@ public final class ParserPluginUtils {
       final ClientHttpRequestFactory clientHttpRequestFactory,
       final String styleRef,
       final Function<byte[], @Nullable Optional<Style>> loadFunction) {
-    HttpStatus statusCode;
+    HttpStatusCode statusCode;
     final byte[] input;
 
     URI uri;

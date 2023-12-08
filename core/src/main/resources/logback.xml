@@ -10,6 +10,7 @@
 
     <logger name="org.mapfish" level="WARN" />
     <logger name="com.codahale" level="WARN" />
+    <logger name="io.dropwizard" level="WARN" />
     <logger name="org.springframework" level="WARN" />
     <logger name="org.apache" level="WARN" />
     <logger name="org.hibernate" level="WARN" />

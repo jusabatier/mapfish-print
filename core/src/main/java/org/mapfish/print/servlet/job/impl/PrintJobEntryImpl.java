@@ -1,9 +1,12 @@
 package org.mapfish.print.servlet.job.impl;
 
 import java.util.Date;
-import javax.persistence.Column;
-import javax.persistence.Embeddable;
+import jakarta.persistence.Column;
+import jakarta.persistence.Embeddable;
+
+import org.hibernate.annotations.JdbcTypeCode;
 import org.hibernate.annotations.Type;
+import org.hibernate.type.SqlTypes;
 import org.mapfish.print.config.Configuration;
 import org.mapfish.print.config.Template;
 import org.mapfish.print.config.access.AccessAssertion;
@@ -14,22 +17,26 @@ import org.mapfish.print.servlet.job.PrintJobEntry;
 import org.mapfish.print.wrapper.json.PJsonObject;
 import org.springframework.context.ApplicationContext;
 
+import org.mapfish.print.servlet.job.impl.hibernate.AccessAssertionUserType;
+import org.mapfish.print.servlet.job.impl.hibernate.PJsonObjectUserType;
+
 /** Print Job Entry. */
 @Embeddable
 public class PrintJobEntryImpl implements PrintJobEntry {
 
   @Column(insertable = false, updatable = false)
-  @Type(type = "org.hibernate.type.TextType")
+  @JdbcTypeCode(SqlTypes.LONGVARCHAR)
   private String referenceId;
 
   @Column()
-  @Type(type = "org.mapfish.print.servlet.job.impl.hibernate.PJsonObjectUserType")
+  
+  @Type(PJsonObjectUserType.class)
   private PJsonObject requestData;
 
   @Column private long startTime;
 
   @Column()
-  @Type(type = "org.mapfish.print.servlet.job.impl.hibernate.AccessAssertionUserType")
+  @Type(AccessAssertionUserType.class)
   private AccessAssertion access;
 
   /** Constructor. */

@@ -8,7 +8,9 @@ import java.net.URI;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.function.Predicate;
-import org.apache.http.client.methods.HttpRequestBase;
+
+import org.apache.hc.client5.http.classic.methods.HttpUriRequestBase;
+
 import org.mapfish.print.config.Configuration;
 import org.mapfish.print.http.ConfigurableRequest;
 import org.mapfish.print.http.MfClientHttpRequestFactory;
@@ -97,7 +99,7 @@ public class TestHttpClientFactory extends MfClientHttpRequestFactoryImpl
     }
 
     @Override
-    public HttpRequestBase getUnderlyingRequest() {
+    public HttpUriRequestBase getUnderlyingRequest() {
       throw new UnsupportedOperationException("Not supported");
     }
 
@@ -119,13 +121,6 @@ public class TestHttpClientFactory extends MfClientHttpRequestFactoryImpl
     @Override
     public HttpMethod getMethod() {
       return httpRequest.getMethod();
-    }
-
-    @Override
-    public String getMethodValue() {
-      final HttpMethod method = httpRequest.getMethod();
-      assert method != null;
-      return method.name();
     }
 
     @Override

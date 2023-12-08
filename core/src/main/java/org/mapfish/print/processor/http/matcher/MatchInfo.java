@@ -3,7 +3,7 @@ package org.mapfish.print.processor.http.matcher;
 import java.net.MalformedURLException;
 import java.net.URI;
 import org.apache.commons.lang3.StringUtils;
-import org.apache.http.auth.AuthScope;
+import org.apache.hc.client5.http.auth.AuthScope;
 import org.springframework.http.HttpMethod;
 
 /** Information required for performing a request match. */
@@ -105,16 +105,16 @@ public final class MatchInfo {
   @SuppressWarnings("StringEquality")
   public static MatchInfo fromAuthScope(final AuthScope authscope) {
     String newScheme =
-        StringUtils.equals(authscope.getScheme(), AuthScope.ANY_SCHEME)
+        StringUtils.equals(authscope.getSchemeName(), ANY_SCHEME)
             ? ANY_SCHEME
-            : authscope.getScheme();
+            : authscope.getSchemeName();
     String newHost =
-        StringUtils.equals(authscope.getHost(), AuthScope.ANY_HOST)
+        StringUtils.equals(authscope.getHost(), ANY_HOST)
             ? ANY_HOST
             : authscope.getHost();
-    int newPort = authscope.getPort() == AuthScope.ANY_PORT ? ANY_PORT : authscope.getPort();
+    int newPort = authscope.getPort() == ANY_PORT ? ANY_PORT : authscope.getPort();
     String newRealm =
-        StringUtils.equals(authscope.getRealm(), AuthScope.ANY_REALM)
+        StringUtils.equals(authscope.getRealm(), ANY_REALM)
             ? ANY_REALM
             : authscope.getRealm();
 

@@ -10,7 +10,7 @@ import java.net.URL;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
-import javax.annotation.Nonnull;
+import jakarta.annotation.Nonnull;
 import org.apache.commons.io.IOUtils;
 import org.geotools.data.simple.SimpleFeatureCollection;
 import org.geotools.feature.simple.SimpleFeatureTypeBuilder;

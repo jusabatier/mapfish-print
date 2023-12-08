@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.NoSuchElementException;
 import java.util.concurrent.CopyOnWriteArrayList;
-import javax.annotation.Nonnull;
+import jakarta.annotation.Nonnull;
 import org.locationtech.jts.util.Assert;
 import org.mapfish.print.config.Configuration;
 import org.mapfish.print.processor.Processor;
@@ -173,11 +173,6 @@ public final class ConfigFileResolvingHttpRequestFactory implements MfClientHttp
     @Override
     public HttpMethod getMethod() {
       return this.httpMethod;
-    }
-
-    @Override
-    public String getMethodValue() {
-      return this.httpMethod.name();
     }
 
     @Override

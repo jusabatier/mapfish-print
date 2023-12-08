@@ -1,4 +1,4 @@
-FROM gradle:8.4-jdk11 AS builder
+FROM gradle:8.4.0-jdk17 AS builder
 
 RUN --mount=type=cache,target=/var/cache,sharing=locked \
     --mount=type=cache,target=/root/.cache \
@@ -14,7 +14,7 @@ RUN --mount=type=cache,target=/home/gradle/.gradle \
   gradle --version
 
 COPY gradle/ ./gradle/
-COPY gradle.properties build.gradle settings.gradle CI.asc ./
+COPY gradle.properties build.gradle settings.gradle ./
 COPY examples/build.gradle ./examples/
 COPY docs/build.gradle ./docs/
 COPY publish/build.gradle ./publish/
@@ -31,10 +31,11 @@ RUN --mount=type=cache,target=/home/gradle/.gradle \
    gradle --parallel --exclude-task=:core:test \
    --exclude-task=:core:spotbugsMain --exclude-task=:core:checkstyleMain \
    --exclude-task=:core:spotbugsTest --exclude-task=:core:checkstyleTest --exclude-task=:core:testCLI \
-   :core:build :core:explodedWar :publish:build :examples:build :docs:buildDocs
+   :core:build :core:explodedWar :publish:build :examples:build  :core:libSourcesJar :core:libJavadocJar
+#   :core:build :core:explodedWar :publish:build :examples:build :docs:buildDocs :core:libSourcesJar :core:libJavadocJar
 
 RUN mkdir -p core/build/resources/test/org/mapfish/print/ \
-    && chmod -R go=u /home/gradle /tmp/mapfish-print/ . \
+    && chmod -R go=u /home/gradle . \
     && chmod o+t -R core/build/resources
 
 # Backup cache

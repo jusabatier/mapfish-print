@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.util.concurrent.Callable;
 import java.util.concurrent.RecursiveTask;
-import javax.annotation.Nonnull;
+import jakarta.annotation.Nonnull;
 import javax.imageio.ImageIO;
 import org.apache.commons.io.IOUtils;
 import org.geotools.coverage.CoverageFactoryFinder;
@@ -26,6 +26,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.HttpStatusCode;
 import org.springframework.http.client.ClientHttpRequest;
 import org.springframework.http.client.ClientHttpResponse;
 
@@ -230,7 +231,7 @@ public final class CoverageTask implements Callable<GridCoverage2D> {
             LOGGER.debug("\n\t{} -- {}", this.tileRequest.getMethod(), this.tileRequest.getURI());
             final Timer.Context timerDownload = this.registry.timer(baseMetricName).time();
             try (ClientHttpResponse response = this.tileRequest.execute()) {
-              final HttpStatus statusCode = response.getStatusCode();
+              final HttpStatusCode statusCode = response.getStatusCode();
               if (statusCode == HttpStatus.NO_CONTENT || statusCode == HttpStatus.NOT_FOUND) {
                 if (statusCode == HttpStatus.NOT_FOUND) {
                   LOGGER.info(

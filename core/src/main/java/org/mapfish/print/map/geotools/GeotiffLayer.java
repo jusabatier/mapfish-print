@@ -8,7 +8,7 @@ import java.util.Collections;
 import java.util.Set;
 import java.util.concurrent.ExecutorService;
 import java.util.function.Function;
-import javax.annotation.Nonnull;
+import jakarta.annotation.Nonnull;
 import org.apache.commons.io.IOUtils;
 import org.geotools.coverage.grid.io.AbstractGridCoverage2DReader;
 import org.geotools.gce.geotiff.GeoTiffFormat;

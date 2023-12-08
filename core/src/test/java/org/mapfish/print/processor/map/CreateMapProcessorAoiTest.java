@@ -14,7 +14,7 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.ForkJoinTask;
 import java.util.function.Function;
-import javax.annotation.Nonnull;
+import jakarta.annotation.Nonnull;
 import org.apache.batik.transcoder.TranscoderException;
 import org.json.JSONArray;
 import org.json.JSONException;

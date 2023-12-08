@@ -1,7 +1,7 @@
 package org.mapfish.print.map.geotools.grid;
 
 import java.util.concurrent.ForkJoinPool;
-import javax.annotation.Nonnull;
+import jakarta.annotation.Nonnull;
 import org.geotools.data.FeatureSource;
 import org.geotools.styling.Style;
 import org.mapfish.print.OptionalUtils;

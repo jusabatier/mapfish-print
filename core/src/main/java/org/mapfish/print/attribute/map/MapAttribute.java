@@ -3,7 +3,7 @@ package org.mapfish.print.attribute.map;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Function;
-import javax.annotation.Nonnull;
+import jakarta.annotation.Nonnull;
 import org.json.JSONArray;
 import org.locationtech.jts.geom.Envelope;
 import org.mapfish.print.attribute.map.OverviewMapAttribute.OverviewMapAttributeValues;

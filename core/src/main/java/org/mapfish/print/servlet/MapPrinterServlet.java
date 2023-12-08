@@ -27,10 +27,10 @@ import java.util.UUID;
 import java.util.concurrent.TimeUnit;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import javax.annotation.Nonnull;
-import javax.servlet.ServletException;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import jakarta.annotation.Nonnull;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 import net.sf.jasperreports.engine.fonts.FontFamily;
 import net.sf.jasperreports.extensions.ExtensionsEnvironment;
 import org.apache.commons.io.FilenameUtils;
@@ -108,8 +108,8 @@ public class MapPrinterServlet extends BaseMapServlet {
   /**
    * If the job is done (value is true) or not (value is false).
    *
-   * <p>Part of the {@link #getStatus(String, String, javax.servlet.http.HttpServletRequest,
-   * javax.servlet.http.HttpServletResponse)} response.
+   * <p>Part of the {@link #getStatus(String, String, jakarta.servlet.http.HttpServletRequest,
+   * jakarta.servlet.http.HttpServletResponse)} response.
    */
   public static final String JSON_DONE = "done";
 
@@ -124,8 +124,8 @@ public class MapPrinterServlet extends BaseMapServlet {
    *   <li>error
    * </ul>
    *
-   * Part of the {@link #getStatus(String, String, javax.servlet.http.HttpServletRequest,
-   * javax.servlet.http.HttpServletResponse)} response
+   * Part of the {@link #getStatus(String, String, jakarta.servlet.http.HttpServletRequest,
+   * jakarta.servlet.http.HttpServletResponse)} response
    */
   public static final String JSON_STATUS = "status";
 
@@ -133,8 +133,8 @@ public class MapPrinterServlet extends BaseMapServlet {
    * The elapsed time in ms from the point the job started. If the job is finished, this is the
    * duration it took to process the job.
    *
-   * <p>Part of the {@link #getStatus(String, String, javax.servlet.http.HttpServletRequest,
-   * javax.servlet.http.HttpServletResponse)} response.
+   * <p>Part of the {@link #getStatus(String, String, jakarta.servlet.http.HttpServletRequest,
+   * jakarta.servlet.http.HttpServletResponse)} response.
    */
   public static final String JSON_ELAPSED_TIME = "elapsedTime";
 
@@ -142,8 +142,8 @@ public class MapPrinterServlet extends BaseMapServlet {
    * A rough estimate for the time in ms the job still has to wait in the queue until it starts
    * processing.
    *
-   * <p>Part of the {@link #getStatus(String, String, javax.servlet.http.HttpServletRequest,
-   * javax.servlet.http.HttpServletResponse)} response.
+   * <p>Part of the {@link #getStatus(String, String, jakarta.servlet.http.HttpServletRequest,
+   * jakarta.servlet.http.HttpServletResponse)} response.
    */
   public static final String JSON_WAITING_TIME = "waitingTime";
 
@@ -1214,7 +1214,8 @@ public class MapPrinterServlet extends BaseMapServlet {
       referrer = "http://localhost/";
     }
     try {
-      return allowedReferers.matches(new URI(referrer), HttpMethod.resolve(request.getMethod()));
+        
+      return allowedReferers.matches(new URI(referrer), HttpMethod.valueOf(request.getMethod()));
     } catch (SocketException
         | UnknownHostException
         | URISyntaxException
